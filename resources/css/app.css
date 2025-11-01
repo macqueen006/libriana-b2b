@@ -1,8 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
+@import "../../node_modules/preline/variants.css";
 
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
+/* Preline UI */
+@source "../../node_modules/preline/dist/*.js";
+
+/* Plugins */
+@plugin "@tailwindcss/forms";
+
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-primary: #f84c1d;
+    --color-body: #140904;
+    --color-white: #ffffff;
+    --color-background: #ece5e1;
+    --color-well-read: #b43333;
+    --color-gold-sand: #ecb496;
+    --color-orange: #fb6e1f; /* for links*/
+    --color-punch: #d44028;
+    --color-taupe: #423531;
+    --color-terracotta: #de7657;
+
+    /* Primary shades (darker for hover states & shadows)*/
+    --color-primary-shade-10: #dd461b;
+    --color-primary-shade-20: #c53e18;
+    --color-primary-shade-30: #ac3715;
+    --color-primary-shade-40: #942f12;
+    --color-primary-shade-50: #7b270f;
+    --color-primary-shade-60: #621f0c;
+    --color-primary-shade-70: #4a1709;
+    --color-primary-shade-80: #311006;
+    --color-primary-shade-90: #190803;
+
+    /* Primary Tints (lighter for highlights & backgrounds)*/
+    --color-primary-tint-10: #f76035;
+    --color-primary-tint-20: #f8714b;
+    --color-primary-tint-30: #f98362;
+    --color-primary-tint-40: #fa9578;
+    --color-primary-tint-50: #fba78f;
+    --color-primary-tint-60: #fbb8a5;
+    --color-primary-tint-70: #fccabc;
+    --color-primary-tint-80: #fddcd2;
+    --color-primary-tint-90: #feede9;
+
+    --font-inter: "Inter", sans-serif;
+
+}
+
+@layer base {
+    * {
+        @apply transition-colors duration-300 ease-in-out p-0 m-0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-body text-white font-inter;
+    }
+
+    p {
+        @apply text-base leading-[25.6px] tracking-[-0.32px] font-normal;
+    }
+
+    h1 {
+        @apply text-[49px] lg:text-[62px] leading-[74.4px] tracking-[-2.48px] font-medium;
+    }
+
+    h2 {
+        @apply text-[31px] md:text-[49px] leading-[37.2px] md:leading-[58.8px] tracking-[-1.96px] md:tracking-[-1.24px] font-medium;
+    }
+
+    h4 {
+        @apply text-[25px] leading-[32.5px] tracking-[-0.4px] font-normal;
+    }
+
+    img {
+        @apply w-full h-full object-cover max-w-full block;
+    }
+}
+
+@layer utilities {
+    .subheading {
+        @apply text-[22px] leading-[35.2px] tracking-[-0.44px] font-normal;
+    }
+
+    .subheading-small {
+        @apply text-[18px] leading-[28.8px] tracking-[-0.36px] font-normal;
+    }
+
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .wrapper {
+        @apply max-w-[1200px] mx-auto w-full h-full;
+    }
+
+    .wrapper-text {
+        @apply flex flex-col items-center justify-center relative gap-6 max-w-[660px] mx-auto text-center
+    }
+
+    .nav-background {
+        background: #1D0702;
+        background: linear-gradient(110deg, rgba(29, 7, 2, 1) 25%, rgba(146, 36, 9, 1) 65%, rgba(29, 7, 2, 1) 100%);
+    }
+
+    .check {
+        @apply border border-red-500;
+    }
+
+}
+
+@layer components {
+    .grid-card-6 {
+        @apply grid auto-rows-[minmax(0,1fr)] gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(3,minmax(50px,1fr))] lg:grid-rows-[repeat(2,minmax(0,1fr))]  justify-center relative w-full max-w-[1200px] overflow-visible p-0;
+    }
+
+    .grid-card-3 {
+        @apply grid auto-rows-[minmax(0,1fr)] gap-5 grid-cols-1 md:grid-cols-[repeat(3,minmax(50px,1fr))] justify-center relative w-full max-w-[1200px] overflow-visible p-0;
+    }
+
+    .grid-card-2 {
+        @apply grid auto-rows-[minmax(0,1fr)] gap-5 grid-cols-1 md:grid-cols-[repeat(2,minmax(50px,1fr))] justify-center relative w-full max-w-[1200px] overflow-visible p-0;
+    }
+
+    .grid-card-wrap {
+        @apply grid auto-rows-[minmax(0,1fr)] grid-cols-1 sm:grid-cols-[repeat(2,minmax(50px,1fr))] md:grid-cols-[repeat(3,minmax(50px,1fr))] justify-center relative w-full max-w-[1200px] overflow-visible p-0;
+    }
+
+    .content-flex {
+        @apply flex flex-col gap-5 items-start content-start justify-start px-5 lg:px-10 relative;
+    }
+
+    .content-flex-center {
+        @apply flex flex-col items-center justify-center relative px-5 lg:px-10;
+    }
+
+    .btn {
+        @apply relative cursor-pointer text-body transition-all flex items-center justify-center whitespace-nowrap rounded-full will-change-transform duration-300 shadow-lg hover:shadow-xl h-[42px] text-lg pl-[3rem] pr-4 bg-primary shadow-primary-shade-40/30 hover:shadow-primary-shade-50/30 border border-punch;
+    }
+
+    .btn-icon {
+        @apply absolute left-0 top-0 mt-1 ml-1 bg-white text-body p-[0.35rem] bottom-1 transition-all rounded-full duration-300 size-8;
+    }
+
+
+    /* .btn-primary {
+         @apply bg-pomegranate text-background px-6 py-3 rounded-lg font-semibold;
+         @apply hover:bg-punch hover:shadow-lg transition-all duration-300;
+         @apply disabled:opacity-50 disabled:cursor-not-allowed;
+     }
+
+     .card {
+         @apply bg-gold-sand-tint-90 rounded-xl shadow-gold-sand p-6;
+         @apply border border-gold-sand-shade-10;
+     }
+
+     .input-field {
+         @apply w-full px-4 py-2 rounded-lg border border-taupe;
+         @apply focus:border-pomegranate focus:ring-2 focus:ring-pomegranate/20;
+     }*/
+
 }
