@@ -118,7 +118,7 @@
                     <div class="logo h-[30px] w-[108px] relative">
                         <img src="{{asset('img/logo-text.svg')}}" class="w-full h-full object-contain" alt="logo">
                     </div>
-                    <p class="w-[313px] lg:w-full">Empower your business with cutting-edge AI technology that transforms
+                    <p class="w-[313px] lg:w-full">Empower your business with cutting edge AI technology that transforms
                         raw data into actionable
                         insights.</p>
                 </div>

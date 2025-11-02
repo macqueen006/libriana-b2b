@@ -431,7 +431,7 @@
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/progress-card.png')}}"
-                             class="w-full h-full object-cover absolute left-0 top-0"
+                             class="w-full h-full object-contain absolute left-0 top-0"
                              alt="metrics"
                         >
                     </div>
@@ -684,7 +684,7 @@
     <!-- Advance Protection    -->
     <section class="content-flex-center">
         <div
-            class="flex flex-col md:flex-row items-center justify-center py-20 lg:py-[100px] relative w-full max-w-[1200px] mx-auto">
+            class="flex flex-col md:flex-row items-center gap-10 justify-center py-20 lg:py-[100px] relative w-full max-w-[1200px] mx-auto">
             <div class="flex flex-col gap-5 pt-2.5 flex-1 justify-start">
                 <span
                     class="inline-flex w-fit items-center gap-x-1.5 py-[2px] px-3 rounded-full text-sm font-medium uppercase bg-primary-shade-80 border border-punch text-primary">Protection</span>
@@ -738,7 +738,7 @@
 
             <div class="flex-1 relative min-h-[512px] w-full">
                 <img src="{{asset('img/uptime-card.png')}}"
-                     class="absolute top-0 left-0 w-full h-full object-cover"
+                     class="absolute top-0 left-0 w-full h-full object-contain"
                      alt="metrics"
                 >
             </div>
