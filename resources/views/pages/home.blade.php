@@ -1,6 +1,6 @@
 <x-layout title="Home">
     <!-- Hero section -->
-    <section class="relative px-5 pt-[80px] h-screen overflow-hidden hero-main">
+    <section class="relative px-5 pt-[80px] min-h-[500px] h-screen overflow-hidden hero-main">
         <!-- Background Image as Absolute Positioned Div -->
         <div class="absolute inset-0 z-0 hero-bg-image">
             <img src="{{asset('img/particles.png')}}"

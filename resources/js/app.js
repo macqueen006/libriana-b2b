@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "-=1"
         );
 
-    gsap.to('.hero-bg-image',{
+    /*gsap.to('.hero-bg-image',{
         scrollTrigger: {
             trigger: '.hero-main',
             start: 'top top',
@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
             scrub: true
         },
         backgroundPosition: '50% 100px',
-    });
+    });*/
 
     // Stats cards animation
-    gsap.from('.content-flex-center:nth-of-type(1) .border', {
+   /* gsap.from('.content-flex-center:nth-of-type(1) .border', {
         scrollTrigger: {
             trigger: '.content-flex-center:nth-of-type(1)',
             start: 'top 80%',
@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         stagger: 0.2,
         duration: 0.8,
         ease: 'power2.out'
-    });
+    });*/
 
 });
