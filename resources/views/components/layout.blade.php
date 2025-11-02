@@ -25,7 +25,7 @@
             <!-- Logo -->
             <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
                href="/" aria-label="Preline">
-                <img src="{{ asset("/img/logo-text.svg") }}" class="h-9" alt="logo">
+                <img src="{{ asset("/img/logo-text.svg") }}" class="h-9 w-[136px]" alt="logo">
             </a>
             <!-- End Logo -->
         </div>
