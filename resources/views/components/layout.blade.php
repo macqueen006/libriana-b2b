@@ -15,10 +15,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
-<body>
+<body class="relative">
 <!-- HEADER -->
 <header
-    class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-2.5 backdrop-blur-[5px] bg-body/5 absolute top-0 left-0">
+    class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-2.5 backdrop-blur-[5px]bg-body/5">
     <nav
         class="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-5 md:px-6 lg:px-8 mx-auto">
         <div class="lg:col-span-3 flex items-center">
@@ -76,27 +76,27 @@
             <div
                 class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
                 <div>
-                    <a class="relative inline-block text-body focus:outline-hidden {{ isActiveRoute('home', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white"
+                    <a class="relative inline-block text-background focus:outline-hidden {{ isActiveRoute('home', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white"
                        href="{{route('home')}}">Home</a>
                 </div>
                 <div>
-                    <a class="relative inline-block text-body hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('about-us', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                    <a class="relative inline-block text-background hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('about-us', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                        href="{{route('about-us')}}">About</a>
                 </div>
                 <div>
-                    <a class="relative inline-block text-body hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('product', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                    <a class="relative inline-block text-background hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('product', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                        href="{{route('product')}}">Product</a>
                 </div>
                 <div>
-                    <a class="relative inline-block text-body hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('solution', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                    <a class="relative inline-block text-background hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('solution', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                        href="{{route('solution')}}">Solution</a>
                 </div>
                 <div>
-                    <a class="relative inline-block text-body hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('our-story', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                    <a class="relative inline-block text-background hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('our-story', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                        href="{{route('our-story')}}">Our Story</a>
                 </div>
                 <div>
-                    <a class="relative inline-block text-body hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('contact-us', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                    <a class="relative inline-block text-background hover:text-gray-600 focus:outline-hidden focus:text-gray-600 {{ isActiveRoute('contact-us', 'before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-orange') }} dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                        href="{{route('contact-us')}}">Contact us</a>
                 </div>
             </div>
@@ -106,7 +106,7 @@
 </header>
 <!-- END HEADER -->
 
-<main class="py-4">
+<main>
     {{ $slot }}
 </main>
 

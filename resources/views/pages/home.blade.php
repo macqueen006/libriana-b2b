@@ -1,8 +1,15 @@
 <x-layout title="Home">
     <!-- Hero section -->
-    <section class="px-5 pt-[80px] bg-cover bg-fill bg-no-repeat h-screen hero-background"
-             style="background-image: url('{{asset('img/particles.png')}}');">
-        <div class="wrapper pt-20 pb-10 lg:py-[100px]">
+    <section class="relative px-5 pt-[80px] h-screen overflow-hidden hero-main">
+        <!-- Background Image as Absolute Positioned Div -->
+        <div class="absolute inset-0 z-0 hero-bg-image">
+            <img src="{{asset('img/particles.png')}}"
+                 alt="Background particles"
+                 class="w-full h-full object-cover object-center">
+        </div>
+
+        <!-- Content -->
+        <div class="wrapper pt-20 pb-10 lg:py-[100px] relative z-10">
             <div class="wrapper-text hero-text">
                 <h1 class="capitalize">Transforming Libraries With AI Intelligence</h1>
                 <p class="subheading">
@@ -149,7 +156,7 @@
                     </li>
                 </ul>
                 <!-- End Text-->
-                <button class="w-fit btn group hidden lg:block">
+                <button class="w-fit btn group">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -237,7 +244,7 @@
                     </li>
                 </ul>
                 <!-- End Text-->
-                <button class="w-fit btn group hidden lg:block">
+                <button class="w-fit btn group">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -325,7 +332,7 @@
                     </li>
                 </ul>
                 <!-- End Text-->
-                <button class="w-fit btn group hidden lg:block">
+                <button class="w-fit btn group">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"

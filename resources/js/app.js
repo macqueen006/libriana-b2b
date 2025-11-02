@@ -17,10 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "-=1"
         );
 
-    // Parallax effect on hero background
-    gsap.to('.hero-background', {
+    gsap.to('.hero-bg-image',{
         scrollTrigger: {
-            trigger: '.hero-background',
+            trigger: '.hero-main',
             start: 'top top',
             end: 'bottom top',
             scrub: true
