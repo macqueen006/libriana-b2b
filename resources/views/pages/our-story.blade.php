@@ -14,7 +14,7 @@
     <!-- End Hero Section -->
     <section class="content-flex">
         <div class="max-w-[1200px] mx-auto w-full">
-            <div class="flex flex-col md:flex-row gap-5 md:gap-[61px] p-5 w-full">
+            <div class="flex flex-col md:flex-row gap-5 md:gap-[61px] w-full">
                 <div class="flex flex-col gap-5 max-w-[460px]">
                     <span class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium uppercase bg-primary-shade-80
                      border border-punch text-primary w-fit">OUR FOUNDATION</span>
