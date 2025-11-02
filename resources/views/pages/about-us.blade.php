@@ -1,6 +1,6 @@
 <x-layout title="About Us">
     <!-- Hero section -->
-    <section class="px-5 pt-[80px] h-auto">
+    <section class="px-5 pt-[80px] h-auto pb-20">
         <div class="wrapper pt-20">
             <div class="max-w-[780px]">
                 <div class="space-y-5">
@@ -26,7 +26,7 @@
         </div>
     </section>
 
-    <section class="content-flex-center gap-[60px]">
+    <section class="content-flex-center gap-[60px] mt-20">
         <div class="wrapper py-10 lg:py-[100px]">
             <div class="flex flex-col gap-2.5">
                 <div class="wrapper-text">
@@ -134,7 +134,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col md:flex-row gap-5 p-5 w-full">
+            <div class="flex flex-col md:flex-row gap-5 w-full">
                 <div class="space-y-5 flex-1">
                     <div class="space-y-5">
                         <div class="border border-taupe/40 rounded-sm py-5 px-4 flex-1">
@@ -282,7 +282,7 @@
     </section>
 
     <section class="content-flex-center space-y-10">
-        <div class="flex flex-col md:flex-row items-center justify-center relative w-full max-w-[1200px] mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-5 justify-center relative w-full max-w-[1200px] mx-auto">
             <div class="space-y-5 pt-2.5 flex-1 justify-start">
                 <span class="inline-flex w-fit items-center gap-x-1.5 py-[2px] px-3 rounded-full text-sm font-medium uppercase bg-primary-shade-80 border border-punch text-primary">how it works</span>
                 <h2 class="max-w-[480px]">Choose Your Solution</h2>
