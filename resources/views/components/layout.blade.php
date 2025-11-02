@@ -15,7 +15,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
-<body class="relative">
+<body class="antialiased md:subpixel-antialiased">
 <!-- HEADER -->
 <header
     class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-2.5 backdrop-blur-[5px]bg-body/5">

@@ -748,7 +748,7 @@
 
     <!--  Data Security  -->
     <section class="content-flex-center">
-        <div class="flex flex-col md:flex-row items-center justify-center pb-20 relative w-full max-w-[1200px] mx-auto">
+        <div class="flex flex-col-reverse md:flex-row gap-5 items-center justify-center pb-20 relative w-full max-w-[1200px] mx-auto">
             <div class="flex-1 relative min-h-[512px] w-full">
                 <img src="{{asset('img/network-card.png')}}"
                      class="absolute top-0 left-0 w-full h-full object-cover"
