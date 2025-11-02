@@ -13,7 +13,7 @@
     </section>
 
     <section class="content-flex">
-        <div class="max-w-[1200px] mx-auto w-full p-[32px] gap-5 flex flex-col md:flex-row">
+        <div class="max-w-[1200px] mx-auto w-full lg:p-[32px] gap-5 flex flex-col md:flex-row">
             <div class="flex-1 flex flex-col gap-[60px]">
                 <h4 class="max-w-[308px]">Success is a team play, right? Let’s work together!</h4>
                 <div class="flex flex-col gap-[30px]">

@@ -17,7 +17,7 @@ class ContactForm extends Component
 
     protected $rules = [
         'fullname' => 'required|string|max:255',
-        'phone' => 'nullable|string|max:20|regex:/^[0-9\s\-\+\(\)]+$/',
+        'phone' => 'required|string|max:20|regex:/^[0-9\s\-\+\(\)]+$/',
         'email' => 'required|email|max:255',
         'message' => 'required|string|max:5000',
     ];
@@ -25,6 +25,7 @@ class ContactForm extends Component
     protected $messages = [
         'fullname.required' => 'Please enter your full name.',
         'phone.regex' => 'Please enter a valid phone number.',
+        'phone.required' => 'Please enter a phone number.',
         'email.required' => 'Please enter your email address.',
         'email.email' => 'Please enter a valid email address.',
         'message.required' => 'Please enter your message.',

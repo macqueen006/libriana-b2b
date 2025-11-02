@@ -177,7 +177,7 @@
                 </div>
                 <h4 class="text-xl">Workflow Intelligence</h4>
                 <p class="text-background/70">
-                    Free your team from routine tasks from classification to circulation—while maintaining the highest standards of library excellence
+                    Free your team from routine tasks from classification to circulation while maintaining the highest standards of library excellence
                 </p>
             </div>
             <div class="flex flex-col gap-5 border border-taupe/40 rounded-sm w-full h-full p-5">
@@ -267,7 +267,7 @@
     </section>
 
     <section class="content-flex-center space-y-5 mt-20">
-        <div class="flex flex-col md:flex-row items-center justify-center relative w-full max-w-[1200px] mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-5 justify-center relative w-full max-w-[1200px] mx-auto">
             <div class="space-y-5 pt-2.5 flex-1 justify-start">
                 <span class="inline-flex w-fit items-center gap-x-1.5 py-[2px] px-3 rounded-full text-sm font-medium uppercase bg-primary-shade-80 border border-punch text-primary">
                     ANALYTICS

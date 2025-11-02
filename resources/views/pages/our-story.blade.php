@@ -70,7 +70,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col md:flex-row gap-5 p-5 w-full">
+            <div class="flex flex-col md:flex-row gap-5 w-full">
                 <div class="flex flex-col gap-5 flex-1">
                     <div class="space-y-5">
                         <div class="border border-taupe/40 rounded-sm py-5 px-4 flex-1">

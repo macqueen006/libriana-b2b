@@ -1,6 +1,6 @@
 <x-layout title="About Us">
     <!-- Hero section -->
-    <section class="px-5 pt-[80px] h-auto pb-20">
+    <section class="px-5 pt-[80px] h-auto">
         <div class="wrapper pt-20">
             <div class="max-w-[780px]">
                 <div class="space-y-5">

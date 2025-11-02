@@ -29,7 +29,7 @@
         </div>
     </section>
 
-    <section class="content-flex-center gap-[60px]">
+    <section class="content-flex-center gap-[60px] mt-20">
         <div class="wrapper py-10 lg:py-[100px]">
             <div class="flex flex-col gap-2.5">
                 <div class="wrapper-text">
