@@ -1,4 +1,4 @@
-@props(['title' => 'libriana.ai'])
+@props(['title' => 'librana.ai'])
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,9 +23,9 @@
         class="relative max-w-7xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-5 md:px-6 lg:px-8 mx-auto">
         <div class="lg:col-span-3 flex items-center">
             <!-- Logo -->
-            <a class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
+            <a class="flex-none rounded-xl text-xl inline-block relative h-9 w-[136px] font-semibold focus:outline-hidden focus:opacity-80"
                href="/" aria-label="Preline">
-                <img src="{{ asset("/img/logo-text.svg") }}" class="h-9 w-[136px]" alt="logo">
+                <img src="{{ asset("/img/logo-text.svg") }}" class="w-full h-full object-contain" alt="logo">
             </a>
             <!-- End Logo -->
         </div>
@@ -125,7 +125,7 @@
                 <div class="flex flex-col gap-1">
                     <p class="text-background/70 text-sm">Contact us</p>
                     <a href="">+234 903 2732 049</a>
-                    <a href="">Libriana.ai@support.com</a>
+                    <a href="">librana.ai@support.com</a>
                 </div>
             </div>
             <div class="flex-1 flex flex-col sm:flex-row gap-5">
@@ -212,7 +212,7 @@
                 </div>
             </div>
             <p class="text-sm text-background/70">
-                &copy; {{ date('Y') }} Libriana ai Developed by&nbsp;Macqueen006.
+                &copy; {{ date('Y') }} librana ai Developed by&nbsp;Macqueen006.
             </p>
         </div>
     </div>

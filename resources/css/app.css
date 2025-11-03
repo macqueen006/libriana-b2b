@@ -12,38 +12,48 @@
 @plugin "@tailwindcss/forms";
 
 @theme {
-    --color-primary: #f84c1d;
-    --color-body: #140904;
+    /* New Color Scheme */
+    --color-primary: #5463f4;
+    --color-body: #03081b;
     --color-white: #ffffff;
-    --color-background: #ece5e1;
-    --color-well-read: #b43333;
-    --color-gold-sand: #ecb496;
-    --color-orange: #fb6e1f; /* for links*/
-    --color-punch: #d44028;
-    --color-taupe: #423531;
-    --color-terracotta: #de7657;
+    --color-background: #c4cff5;
+    --color-well-read: #3e41ac;
+    --color-gold-sand: #5e61b2;
+    --color-orange: #5463f4;
+    --color-punch: #322f86;
+    --color-taupe: #1d3351;
+    --color-terracotta: #5e61b2;
+
+    --cornflower-blue: #5463f4;
+    --black-pearl: #03081b;
+    --minsk: #322f86;
+    --cloud-burst: #1d3351;
+    --gigas: #3e41ac;
+    --moon-raker: #c4cff5;
+    --blue-violet: #5e61b2;
+    --valhalla: #261e61;
 
     /* Primary shades (darker for hover states & shadows)*/
-    --color-primary-shade-10: #dd461b;
-    --color-primary-shade-20: #c53e18;
-    --color-primary-shade-30: #ac3715;
-    --color-primary-shade-40: #942f12;
-    --color-primary-shade-50: #7b270f;
-    --color-primary-shade-60: #621f0c;
-    --color-primary-shade-70: #4a1709;
-    --color-primary-shade-80: #311006;
-    --color-primary-shade-90: #190803;
+    --color-primary-shade-10: #4a56dc;
+    --color-primary-shade-20: #4049c4;
+    --color-primary-shade-30: #363cac;
+    --color-primary-shade-40: #2c2f94;
+    --color-primary-shade-50: #22227c;
+    --color-primary-shade-60: #1b1b64;
+    --color-primary-shade-70: #14144c;
+    --color-primary-shade-80: #0d0d34;
+    --color-primary-shade-90: #06061c;
 
     /* Primary Tints (lighter for highlights & backgrounds)*/
-    --color-primary-tint-10: #f76035;
-    --color-primary-tint-20: #f8714b;
-    --color-primary-tint-30: #f98362;
-    --color-primary-tint-40: #fa9578;
-    --color-primary-tint-50: #fba78f;
-    --color-primary-tint-60: #fbb8a5;
-    --color-primary-tint-70: #fccabc;
-    --color-primary-tint-80: #fddcd2;
-    --color-primary-tint-90: #feede9;
+    --color-primary-tint-10: #6372f5;
+    --color-primary-tint-20: #7281f6;
+    --color-primary-tint-30: #8190f7;
+    --color-primary-tint-40: #909ff8;
+    --color-primary-tint-50: #9faef9;
+    --color-primary-tint-60: #aebdfa;
+    --color-primary-tint-70: #bdccfb;
+    --color-primary-tint-80: #ccdbfc;
+    --color-primary-tint-90: #dbe9fd;
 
     --font-inter: "Inter", sans-serif;
 
@@ -105,8 +115,8 @@
     }
 
     .nav-background {
-        background: #1D0702;
-        background: linear-gradient(110deg, rgba(29, 7, 2, 1) 25%, rgba(146, 36, 9, 1) 65%, rgba(29, 7, 2, 1) 100%);
+        background: #03081b;
+        background: linear-gradient(110deg, rgba(3, 8, 27, 1) 25%, rgba(50, 47, 134, 1) 65%, rgba(3, 8, 27, 1) 100%);
     }
 
     .check {

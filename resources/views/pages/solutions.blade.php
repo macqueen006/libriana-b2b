@@ -7,7 +7,7 @@
                      uppercase bg-primary-shade-80 border border-punch text-primary">Our Solution</span>
                     <h1 class="capitalize">Smarter Reference. Stronger Research.</h1>
                     <p class="subheading text-background/70">
-                        Empower librarians and researchers with AI that understands your needs. Explore how Libriana's
+                        Empower librarians and researchers with AI that understands your needs. Explore how librana's
                         automation suite transforms the way libraries serve their communities.
                     </p>
                     <button class="btn group">
@@ -36,7 +36,7 @@
                     </div>
                     <div>
                         <div>
-                            <span>Libriana® AI Librarian</span>
+                            <span>librana® AI Librarian</span>
                             <p class="text-xs text-background/70 max-w-[380px] leading-tight">"Your 24/7 digital reference companion providing empathetic, precise research support?"</p>
                         </div>
                         <p class="text-xs text-background/70">Replying now...?</p>
@@ -116,7 +116,7 @@
                 rounded-full text-sm font-medium uppercase bg-primary-shade-80 border border-punch text-primary">Automation</span>
                 <h2 class="max-w-[480px]">Workflow Automation</h2>
                 <p class="text-background/70 max-w-[480px]">
-                    Libriana AI connects your internal systems, triggers actions based on business logic, and eliminates
+                    librana AI connects your internal systems, triggers actions based on business logic, and eliminates
                     manual coordination.
                 </p>
                 <ul class="flex flex-col gap-4 text-background/70 text-sm">
@@ -237,7 +237,7 @@
                 </span>
                 <h2 class="max-w-[480px]">Professional Development & Patron Engagement</h2>
                 <p class="text-background/70 max-w-[480px]">
-                    Scale your library services without expanding staff hours. Libriana® supports both patrons and librarians elevating service quality and professional growth.
+                    Scale your library services without expanding staff hours. librana® supports both patrons and librarians elevating service quality and professional growth.
                 </p>
                 <ul class="flex flex-col gap-4 text-background/70 text-sm">
                     <li class="flex items-start gap-3 pl-1">
@@ -274,7 +274,7 @@
                 </span>
                 <h2 class="max-w-[480px]">Data Processing & Insights</h2>
                 <p class="text-background/70 max-w-[480px]">
-                    Make better decisions with clean, contextual data. Libriana processes your collection data, patron trends, and staff performance into actionable insights.
+                    Make better decisions with clean, contextual data. librana processes your collection data, patron trends, and staff performance into actionable insights.
                 </p>
                 <ul class="flex flex-col gap-4 text-background/70 text-sm">
                     <li class="flex items-start gap-3 pl-1">

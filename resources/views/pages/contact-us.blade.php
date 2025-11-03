@@ -28,7 +28,7 @@
                     </div>
                     <div class="flex flex-col gap-1">
                         <h4>Email us:</h4>
-                        <p class="text-sm text-background/70">Support@libriana.ai.com</p>
+                        <p class="text-sm text-background/70">Support@librana.ai.com</p>
                     </div>
                     <div class="flex flex-col gap-1">
                         <h4>Call us:</h4>
@@ -62,7 +62,7 @@
                          role="region"
                          aria-labelledby="hs-faq-one">
                         <p class=" border-t border-taupe/40 pt-1">
-                            We offer three AI solutions: Libriana® AI Librarian (digital reference), Libriana® Mentor (professional development), and Libriana® Courseware Advisor (academic guidance).
+                            We offer three AI solutions: librana® AI Librarian (digital reference), librana® Mentor (professional development), and librana® Courseware Advisor (academic guidance).
                         </p>
                     </div>
                 </div>

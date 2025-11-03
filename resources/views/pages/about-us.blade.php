@@ -7,7 +7,7 @@
                     <span class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium uppercase bg-primary-shade-80 border border-punch text-primary">About us</span>
                     <h1 class="capitalize">The Future of Libraries Today, AI That Thinks Like a Librarian!</h1>
                     <p class="subheading text-background/70">
-                        Libriana.ai blends artificial intelligence with the ethics and empathy of librarianship, redefining how libraries serve, teach, and connect.
+                        librana.ai blends artificial intelligence with the ethics and empathy of librarianship, redefining how libraries serve, teach, and connect.
                     </p>
                     <button class="btn group">
                         <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
@@ -19,7 +19,7 @@
                                 <path d="m12 5 7 7-7 7"/>
                             </svg>
                         </div>
-                        <span class="text-white text-base font-semibold">Discover Libriana Solutions</span>
+                        <span class="text-white text-base font-semibold">Discover librana Solutions</span>
                     </button>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     <!-- End image -->
                     <!-- Text-->
                     <div class="p-5 space-y-5">
-                        <h4>Libriana® AI Librarian</h4>
+                        <h4>librana® AI Librarian</h4>
                         <p>
                             A digital librarian that thinks, guides, and communicates like a real academic librarian. Human like, empathetic responses rooted in librarianship best practices.
                         </p>
@@ -70,7 +70,7 @@
                     <!-- End image -->
                     <!-- Text-->
                     <div class="p-5 space-y-5">
-                        <h4>Libriana® Mentor</h4>
+                        <h4>librana® Mentor</h4>
                         <p>
                             The world's first AI-powered professional development companion built exclusively for librarians. Built on global library standards (ALA, IFLA, RUSA, ACRL).
                         </p>
@@ -110,7 +110,7 @@
                     <!-- End image -->
                     <!-- Text-->
                     <div class="p-5 space-y-5">
-                        <h4>Libriana® Courseware Advisor</h4>
+                        <h4>librana® Courseware Advisor</h4>
                         <p>
                             AI-powered partner for smarter academic and career decisions. Transforms curiosity into confident choices for learners everywhere.
                         </p>
@@ -127,9 +127,9 @@
         <div class="max-w-[1200px] flex flex-col gap-[60px] mx-auto w-full pt-20 pb-10">
             <div class="wrapper-text">
                 <span class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium uppercase bg-primary-shade-80 border border-punch text-primary">Key Benefits</span>
-                <h1 class="capitalize">Why Choose Libriana AI</h1>
+                <h1 class="capitalize">Why Choose librana AI</h1>
                 <p class="subheading text-background/70">
-                    Libriana AI offers powerful benefits that help you save time, improve decision making, and scale
+                    librana AI offers powerful benefits that help you save time, improve decision making, and scale
                     your data operations effortlessly.
                 </p>
             </div>
@@ -141,23 +141,15 @@
                             <div class="mx-auto w-full">
                                 <div class="space-y-5">
                                     <div class="opacity-100 size-16">
-                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                             id="svg1488100570_1277">
-                                            <rect width="64" height="64" rx="8"
-                                                  fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
-                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#FE4B01"
-                                                  stroke-opacity="0.24"></rect>
-                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z"
-                                                  fill="#FAA826" fill-opacity="0.26"></path>
-                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#FE4B01"
-                                                  stroke-width="2.90286" stroke-linecap="round"
-                                                  stroke-linejoin="round"></path>
+                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" id="svg1488100570_1277">
+                                            <rect width="64" height="64" rx="8" fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
+                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#5463f4" stroke-opacity="0.24"></rect>
+                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z" fill="#8190f7" fill-opacity="0.26"></path>
+                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#5463f4" stroke-width="2.90286" stroke-linecap="round" stroke-linejoin="round"></path>
                                             <defs>
-                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0"
-                                                                cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                                gradientTransform="translate(32 32) rotate(90) scale(32)">
-                                                    <stop stop-color="#D63D0E" stop-opacity="0"></stop>
-                                                    <stop offset="1" stop-color="#EC801D" stop-opacity="0.25"></stop>
+                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(32)">
+                                                    <stop stop-color="#322f86" stop-opacity="0"></stop>
+                                                    <stop offset="1" stop-color="#5463f4" stop-opacity="0.25"></stop>
                                                 </radialGradient>
                                             </defs>
                                         </svg>
@@ -173,23 +165,15 @@
                             <div class="mx-auto w-full">
                                 <div class="space-y-5">
                                     <div class="opacity-100 size-16">
-                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                             id="svg1488100570_1277">
-                                            <rect width="64" height="64" rx="8"
-                                                  fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
-                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#FE4B01"
-                                                  stroke-opacity="0.24"></rect>
-                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z"
-                                                  fill="#FAA826" fill-opacity="0.26"></path>
-                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#FE4B01"
-                                                  stroke-width="2.90286" stroke-linecap="round"
-                                                  stroke-linejoin="round"></path>
+                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" id="svg1488100570_1277">
+                                            <rect width="64" height="64" rx="8" fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
+                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#5463f4" stroke-opacity="0.24"></rect>
+                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z" fill="#8190f7" fill-opacity="0.26"></path>
+                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#5463f4" stroke-width="2.90286" stroke-linecap="round" stroke-linejoin="round"></path>
                                             <defs>
-                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0"
-                                                                cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                                gradientTransform="translate(32 32) rotate(90) scale(32)">
-                                                    <stop stop-color="#D63D0E" stop-opacity="0"></stop>
-                                                    <stop offset="1" stop-color="#EC801D" stop-opacity="0.25"></stop>
+                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(32)">
+                                                    <stop stop-color="#322f86" stop-opacity="0"></stop>
+                                                    <stop offset="1" stop-color="#5463f4" stop-opacity="0.25"></stop>
                                                 </radialGradient>
                                             </defs>
                                         </svg>
@@ -214,23 +198,15 @@
                             <div class="mx-auto w-full">
                                 <div class="space-y-5">
                                     <div class="opacity-100 size-16">
-                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                             id="svg1488100570_1277">
-                                            <rect width="64" height="64" rx="8"
-                                                  fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
-                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#FE4B01"
-                                                  stroke-opacity="0.24"></rect>
-                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z"
-                                                  fill="#FAA826" fill-opacity="0.26"></path>
-                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#FE4B01"
-                                                  stroke-width="2.90286" stroke-linecap="round"
-                                                  stroke-linejoin="round"></path>
+                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" id="svg1488100570_1277">
+                                            <rect width="64" height="64" rx="8" fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
+                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#5463f4" stroke-opacity="0.24"></rect>
+                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z" fill="#8190f7" fill-opacity="0.26"></path>
+                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#5463f4" stroke-width="2.90286" stroke-linecap="round" stroke-linejoin="round"></path>
                                             <defs>
-                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0"
-                                                                cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                                gradientTransform="translate(32 32) rotate(90) scale(32)">
-                                                    <stop stop-color="#D63D0E" stop-opacity="0"></stop>
-                                                    <stop offset="1" stop-color="#EC801D" stop-opacity="0.25"></stop>
+                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(32)">
+                                                    <stop stop-color="#322f86" stop-opacity="0"></stop>
+                                                    <stop offset="1" stop-color="#5463f4" stop-opacity="0.25"></stop>
                                                 </radialGradient>
                                             </defs>
                                         </svg>
@@ -246,23 +222,15 @@
                             <div class="mx-auto w-full">
                                 <div class="space-y-5">
                                     <div class="opacity-100 size-16">
-                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                             id="svg1488100570_1277">
-                                            <rect width="64" height="64" rx="8"
-                                                  fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
-                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#FE4B01"
-                                                  stroke-opacity="0.24"></rect>
-                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z"
-                                                  fill="#FAA826" fill-opacity="0.26"></path>
-                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#FE4B01"
-                                                  stroke-width="2.90286" stroke-linecap="round"
-                                                  stroke-linejoin="round"></path>
+                                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" id="svg1488100570_1277">
+                                            <rect width="64" height="64" rx="8" fill="url(#svg1488100570_1277_paint0_radial_147_2320)"></rect>
+                                            <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" stroke="#5463f4" stroke-opacity="0.24"></rect>
+                                            <path d="M50.5 31.75C50.5 34.2123 50.015 36.6505 49.0727 38.9253C48.1305 41.2002 46.7493 43.2672 45.0083 45.0083C43.2672 46.7494 41.2002 48.1305 38.9253 49.0727C36.6505 50.015 34.2123 50.5 31.75 50.5C29.2877 50.5 26.8495 50.015 24.5747 49.0727C22.2998 48.1305 20.2328 46.7494 18.4917 45.0083C16.7506 43.2672 15.3695 41.2002 14.4273 38.9253C13.485 36.6505 13 34.2123 13 31.75C13 26.7772 14.9754 22.0081 18.4917 18.4917C22.0081 14.9754 26.7772 13 31.75 13C36.7228 13 41.4919 14.9754 45.0083 18.4917C48.5246 22.0081 50.5 26.7772 50.5 31.75Z" fill="#8190f7" fill-opacity="0.26"></path>
+                                            <path d="M27 31.9464L30.4018 35.3482L37 28.75" stroke="#5463f4" stroke-width="2.90286" stroke-linecap="round" stroke-linejoin="round"></path>
                                             <defs>
-                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0"
-                                                                cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                                gradientTransform="translate(32 32) rotate(90) scale(32)">
-                                                    <stop stop-color="#D63D0E" stop-opacity="0"></stop>
-                                                    <stop offset="1" stop-color="#EC801D" stop-opacity="0.25"></stop>
+                                                <radialGradient id="svg1488100570_1277_paint0_radial_147_2320" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(32)">
+                                                    <stop stop-color="#322f86" stop-opacity="0"></stop>
+                                                    <stop offset="1" stop-color="#5463f4" stop-opacity="0.25"></stop>
                                                 </radialGradient>
                                             </defs>
                                         </svg>
@@ -287,7 +255,7 @@
                 <span class="inline-flex w-fit items-center gap-x-1.5 py-[2px] px-3 rounded-full text-sm font-medium uppercase bg-primary-shade-80 border border-punch text-primary">how it works</span>
                 <h2 class="max-w-[480px]">Choose Your Solution</h2>
                 <p class="text-background/70 max-w-[480px]">
-                    Get started quickly and effortlessly with Libriana AI’s streamlined solution designed to
+                    Get started quickly and effortlessly with librana AI’s streamlined solution designed to
                     optimize your data workflow.</p>
                 <ul class="flex flex-col gap-4 text-background/70 text-sm">
                     <li class="flex items-start gap-3 pl-1">
@@ -336,9 +304,9 @@
                          height="100%">
                         <defs>
                             <linearGradient id="premium-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" style="stop-color:#423531;stop-opacity:0.1"></stop>
-                                <stop offset="50%" style="stop-color:#d44028;stop-opacity:0.8"></stop>
-                                <stop offset="100%" style="stop-color:#423531;stop-opacity:0.1"></stop>
+                                <stop offset="0%" style="stop-color:#1d3351;stop-opacity:0.1"></stop>
+                                <stop offset="50%" style="stop-color:#5463f4;stop-opacity:0.8"></stop>
+                                <stop offset="100%" style="stop-color:#1d3351;stop-opacity:0.1"></stop>
                             </linearGradient>
                         </defs>
                         <rect width="328" height="1" fill="url(#premium-gradient)"></rect>
@@ -351,21 +319,21 @@
                              stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        <span><strong class="text-background font-semibold">Libriana® AI Librarian:</strong> Digital reference excellence.</span>
+                        <span><strong class="text-background font-semibold">librana® AI Librarian:</strong> Digital reference excellence.</span>
                     </li>
                     <li class="flex items-start gap-3 pl-1">
                         <svg class="w-5 h-5 shrink-0 text-punch mt-0.5" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        <span><strong class="text-background font-semibold">Libriana® Mentor:</strong> Professional development.</span>
+                        <span><strong class="text-background font-semibold">librana® Mentor:</strong> Professional development.</span>
                     </li>
                     <li class="flex items-start gap-3 pl-1">
                         <svg class="w-5 h-5 shrink-0 text-punch mt-0.5" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        <span><strong class="text-background font-semibold">Libriana® Advisor:</strong> Academic guidance.</span>
+                        <span><strong class="text-background font-semibold">librana® Advisor:</strong> Academic guidance.</span>
                     </li>
                 </ul>
                 <!-- End Text-->
@@ -520,7 +488,7 @@
                          role="region"
                          aria-labelledby="hs-faq-one">
                         <p class=" border-t border-taupe/40 pt-1">
-                            We offer three AI solutions: Libriana® AI Librarian (digital reference), Libriana® Mentor (professional development), and Libriana® Courseware Advisor (academic guidance).
+                            We offer three AI solutions: librana® AI Librarian (digital reference), librana® Mentor (professional development), and librana® Courseware Advisor (academic guidance).
                         </p>
                     </div>
                 </div>

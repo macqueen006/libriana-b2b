@@ -51,7 +51,7 @@
                         <div class="w-full mx-auto pt-5">
                             <div class="space-y-[48px]">
                                 <div class="text-center space-y-5 max-w-[428px] mx-auto">
-                                    <p class="text-white text-lg">Libriana® AI Librarian</p>
+                                    <p class="text-white text-lg">librana® AI Librarian</p>
                                     <p class="text-background/70">
                                         Converses like a real librarian with empathetic, professional support. Rooted in
                                         research ethics and best practices for safer, smarter answers every time
@@ -59,13 +59,12 @@
                                 </div>
                                 <div class="flex flex-col justify-center items-center group">
                                     <div class="size-[48px] block rounded-lg border border-orange p-1">
-                                        <div
-                                            class="w-full h-full rounded-lg bg-[radial-gradient(30%_20%_at_50%_0%,rgba(255,255,255,0.9)_0%,rgba(251,110,31,0.3)_60%,#140904_100%)] border border-taupe/40"></div>
+                                        <div class="w-full h-full rounded-lg bg-[radial-gradient(30%_20%_at_50%_0%,rgba(255,255,255,0.9)_0%,rgba(251,110,31,0.3)_60%,#140904_100%)] border border-taupe/40"></div>
                                     </div>
                                     <div
                                         class="h-[40px] w-px relative bg-[linear-gradient(180deg,transparent_0%,#ecb496_50%,#fb6e1f_68%,#ffffff_100%)]"></div>
                                     <div
-                                        class="relative w-full rounded-md border border-taupe/40 bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_50%)] overflow-hidden">
+                                        class="relative w-full rounded-md border border-taupe/40 bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(84,99,244,0.7)_0%,#03081b_50%)] overflow-hidden">
                                         <!-- Hover gradient overlay -->
                                         <div
                                             class="absolute inset-0 bg-[radial-gradient(31%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out -z-10"></div>
@@ -108,7 +107,7 @@
                         <div class="w-full mx-auto pt-5">
                             <div class="space-y-[48px]">
                                 <div class="text-center space-y-5 max-w-[428px] mx-auto">
-                                    <p class="text-white text-lg">Libriana® Mentor</p>
+                                    <p class="text-white text-lg">librana® Mentor</p>
                                     <p class="text-background/70">
                                         24/7 professional development based on global library standards (ALA, IFLA,
                                         RUSA, ACRL). Builds technical and leadership skills by turning everyday
@@ -123,7 +122,7 @@
                                     <div
                                         class="h-[40px] w-px relative bg-[linear-gradient(180deg,transparent_0%,#ecb496_50%,#fb6e1f_68%,#ffffff_100%)]"></div>
                                     <div
-                                        class="relative w-full rounded-md border border-taupe/40 bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_50%)] overflow-hidden">
+                                        class="relative w-full rounded-md border border-taupe/40 bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(84,99,244,0.7)_0%,#03081b_50%)] overflow-hidden">
                                         <!-- Hover gradient overlay -->
                                         <div
                                             class="absolute inset-0 bg-[radial-gradient(31%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out -z-10"></div>
@@ -162,7 +161,7 @@
                         <div class="w-full mx-auto pt-5">
                             <div class="space-y-[48px]">
                                 <div class="text-center space-y-5 max-w-[428px] mx-auto">
-                                    <p class="text-white text-lg">Libriana® Courseware Advisor</p>
+                                    <p class="text-white text-lg">librana® Courseware Advisor</p>
                                     <p class="text-background/70">
                                         Transform how universities and organizations connect with knowledge. Powered by
                                         intelligent conversation and verified academic data for seamless, personalized
@@ -177,7 +176,7 @@
                                     <div
                                         class="h-[40px] w-px relative bg-[linear-gradient(180deg,transparent_0%,#ecb496_50%,#fb6e1f_68%,#ffffff_100%)]"></div>
                                     <div
-                                        class="relative w-full bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_50%)] overflow-hidden">
+                                        class="relative w-full bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(84,99,244,0.7)_0%,#03081b_50%)] overflow-hidden">
                                         <!-- Hover gradient overlay -->
                                         <div
                                             class="absolute inset-0 bg-[radial-gradient(31%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out -z-10"></div>
@@ -234,7 +233,7 @@
                         <div class="w-full mx-auto pt-5">
                             <div class="space-y-[48px]">
                                 <div class="text-center space-y-5 max-w-[428px] mx-auto">
-                                    <p class="text-white text-lg">Why Choose Libriana.ai?</p>
+                                    <p class="text-white text-lg">Why Choose librana.ai?</p>
                                     <p class="text-background/70">
                                         Enhancing workflows with other powerful automation tools and insights.
                                     </p>
@@ -247,7 +246,7 @@
                                     <div
                                         class="h-[40px] w-px relative bg-[linear-gradient(180deg,transparent_0%,#ecb496_50%,#fb6e1f_68%,#ffffff_100%)]"></div>
                                     <div
-                                        class="relative w-full bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_50%)] overflow-hidden">
+                                        class="relative w-full bg-[radial-gradient(17%_12.83168%_at_50%_0%,rgba(84,99,244,0.7)_0%,#03081b_50%)] overflow-hidden">
                                         <!-- Hover gradient overlay -->
                                         <div
                                             class="absolute inset-0 bg-[radial-gradient(31%_12.83168%_at_50%_0%,rgba(255,150,75,0.7)_0%,#140904_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out -z-10"></div>
@@ -348,7 +347,7 @@
                     font-medium uppercase bg-primary-shade-80 border border-punch text-primary">product</span>
                     <h2>The Future of Libraries Today</h2>
                     <p class="subheading-small">
-                        Libraries are evolving. At Libriana.ai, we create AI that does more than answer questions it
+                        Libraries are evolving. At librana.ai, we create AI that does more than answer questions it
                         guides, mentors, and empowers. Our solutions put knowledge, professionalism, and trust at the
                         heart of every interaction.
                     </p>
@@ -361,7 +360,7 @@
                 class="border  p-[30px] border-taupe/40 rounded-sm h-full space-y-5 relative bg-gradient-to-b from-taupe-dark to-terracotta/13">
                 <!-- image -->
                 <div class="relative w-full shrink-0 overflow-hidden text-background/70">
-                    <p class="capitalize text-white">Libriana® AI Librarian</p>
+                    <p class="capitalize text-white">librana® AI Librarian</p>
                     <h4 class="text-lg">
                         Your Digital Reference Librarian
                     </h4>
@@ -372,9 +371,9 @@
                          height="100%">
                         <defs>
                             <linearGradient id="premium-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" style="stop-color:#423531;stop-opacity:0.1"></stop>
-                                <stop offset="50%" style="stop-color:#d44028;stop-opacity:0.8"></stop>
-                                <stop offset="100%" style="stop-color:#423531;stop-opacity:0.1"></stop>
+                                <stop offset="0%" style="stop-color:#1d3351;stop-opacity:0.1"></stop>
+                                <stop offset="50%" style="stop-color:#5463f4;stop-opacity:0.8"></stop>
+                                <stop offset="100%" style="stop-color:#1d3351;stop-opacity:0.1"></stop>
                             </linearGradient>
                         </defs>
                         <rect width="328" height="1" fill="url(#premium-gradient)"></rect>
@@ -437,7 +436,7 @@
                 class="border  p-[30px] border-taupe/40 rounded-sm h-full space-y-5 relative bg-gradient-to-b from-taupe-dark to-terracotta/13">
                 <!-- image -->
                 <div class="relative w-full shrink-0 overflow-hidden text-background/70">
-                    <p class="capitalize text-white">Libriana® Mentor</p>
+                    <p class="capitalize text-white">librana® Mentor</p>
                     <h4 class="text-lg">
                         Your AI Librarian Mentor!
                     </h4>
@@ -513,7 +512,7 @@
                 class="border  p-[30px] border-taupe/40 rounded-sm h-full space-y-5 relative bg-gradient-to-b from-taupe-dark to-terracotta/13">
                 <!-- image -->
                 <div class="relative w-full shrink-0 overflow-hidden text-background/70">
-                    <p class="capitalize text-white">Libriana Courseware Advisor.</p>
+                    <p class="capitalize text-white">librana Courseware Advisor.</p>
                     <h4 class="text-lg">
                         AI that is built to transform how universities, organizations.
                     </h4>
@@ -685,8 +684,8 @@
                          role="region"
                          aria-labelledby="hs-faq-one">
                         <p class=" border-t border-taupe/40 pt-1">
-                            We offer three AI solutions: Libriana® AI Librarian (digital reference), Libriana® Mentor
-                            (professional development), and Libriana® Courseware Advisor (academic guidance).
+                            We offer three AI solutions: librana® AI Librarian (digital reference), librana® Mentor
+                            (professional development), and librana® Courseware Advisor (academic guidance).
                         </p>
                     </div>
                 </div>
@@ -755,7 +754,7 @@
                         <path d="m12 5 7 7-7 7"/>
                     </svg>
                 </div>
-                <span class="text-white text-base font-semibold">Contact Libriana.ai</span>
+                <span class="text-white text-base font-semibold">Contact librana.ai</span>
             </button>
         </div>
     </section>
