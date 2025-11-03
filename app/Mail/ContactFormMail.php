@@ -19,7 +19,20 @@ class ContactFormMail extends Mailable
 
     public function build()
     {
-        return $this->subject('New Contact Form Submission from ' . $this->data['fullname'])
-            ->view('emails.contact-form');
+        // Sanitize the name to prevent header injection
+        $sanitizedData = [
+            'fullname' => strip_tags($this->data['fullname']),
+            'phone' => strip_tags($this->data['phone']),
+            'email' => strip_tags($this->data['email']),
+            'message' => strip_tags($this->data['message']),
+        ];
+
+        // Remove newlines from subject to prevent header injection
+        $subject = preg_replace('/[\r\n\t]/', '', $sanitizedData['fullname']);
+
+        $safeName = preg_replace('/[\r\n\t]/', '', $subject);
+        return $this->subject('New Contact Form Submission from ' . $safeName)
+            ->view('emails.contact-form')
+            ->with('data', $sanitizedData);
     }
 }

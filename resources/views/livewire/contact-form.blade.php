@@ -1,11 +1,17 @@
 <div>
     <div class="flex flex-col border border-taupe/40 rounded-xl p-4 sm:p-6 lg:p-10">
 
-        @if($successMessage)
-            <div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                {{ $successMessage }}
-            </div>
-        @endif
+        <!-- Update your success message div -->
+        <div x-data="{ show: @entangle('successMessage').live }"
+             @message-sent.window="setTimeout(() => $wire.successMessage = '', 5000)">
+            @if($successMessage)
+                <div x-show="show"
+                     x-transition
+                     class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+                    {{ $successMessage }}
+                </div>
+            @endif
+        </div>
 
         <form wire:submit.prevent="submit">
             <div class="mt-6 grid gap-4 lg:gap-6">
@@ -14,7 +20,7 @@
                         Full name
                     </label>
                     <input type="text"
-                           wire:model.live="fullname"
+                           wire:model.blur="fullname"
                            id="fullname"
                            name="fullname"
                            class="py-2.5 sm:py-3 px-4 block w-full border-taupe/40 rounded-lg sm:text-sm focus:border-orange focus:ring-orange disabled:opacity-50 disabled:pointer-events-none bg-body @error('fullname') @enderror">
@@ -30,7 +36,7 @@
                             Phone
                         </label>
                         <input wire:ignore type="tel"
-                               wire:model.live="phone"
+                               wire:model.blur="phone"
                                id="phone"
                                name="phone"
                                class="py-2.5 sm:py-3 px-4 block w-full border-taupe/40 rounded-lg sm:text-sm focus:border-orange focus:ring-orange disabled:opacity-50 disabled:pointer-events-none bg-body @error('phone') @enderror">
@@ -44,7 +50,7 @@
                             Email
                         </label>
                         <input type="email"
-                               wire:model.live="email"
+                               wire:model.blur="email"
                                id="email"
                                name="email"
                                autocomplete="email"
@@ -53,6 +59,12 @@
                         <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
                         @enderror
                     </div>
+                    <input type="text"
+                           wire:model="honeypot"
+                           class="sr-only"
+                           name="honeypot"
+                           tabindex="-1"
+                           autocomplete="off">
                 </div>
                 <!-- End Grid -->
 
@@ -60,7 +72,7 @@
                     <label for="message" class="block mb-2 text-sm text-background font-medium uppercase">
                         Message
                     </label>
-                    <textarea wire:model.live="message"
+                    <textarea wire:model.blur="message"
                               id="message"
                               name="message"
                               rows="4"

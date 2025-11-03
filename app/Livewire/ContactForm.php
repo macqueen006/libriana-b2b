@@ -2,6 +2,8 @@
 
 namespace App\Livewire;
 
+use Illuminate\Support\Facades\RateLimiter;
+use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
 use Livewire\Component;
 use Illuminate\Support\Facades\Mail;
@@ -15,11 +17,14 @@ class ContactForm extends Component
     public $message = '';
     public $successMessage = '';
 
+    public $honeypot = '';
+
     protected $rules = [
         'fullname' => 'required|string|max:255',
         'phone' => 'required|string|max:20|regex:/^[0-9\s\-\+\(\)]+$/',
-        'email' => 'required|email|max:255',
+        'email' => 'required|email:rfc,dns|max:255',
         'message' => 'required|string|max:5000',
+        'honeypot' => 'max:0',
     ];
 
     protected $messages = [
@@ -33,20 +38,52 @@ class ContactForm extends Component
 
     public function updated($propertyName): void
     {
-        $this->validateOnly($propertyName);
+        // Only validate fields that use wire:model.blur
+        if (in_array($propertyName, ['fullname', 'phone', 'email'])) {
+            $this->validateOnly($propertyName);
+        }
     }
 
     public function submit(): void
     {
-        $validated = $this->validate();
+        // Honeypot spam check - silently reject bots
+        if (!empty($this->honeypot)) {
+            $this->reset(['fullname', 'phone', 'email', 'message']);
+            return;
+        }
 
-        // Send email
-        Mail::to('your-email@example.com')->send(new ContactFormMail($validated));
+        // Rate limiting: 3 submissions per 10 minutes per IP
+        $executed = RateLimiter::attempt(
+            'contact-form:' . request()->ip(),
+            3, // max attempts
+            function() {
+                $validated = $this->validate();
+                // Send email (blocking, but that's OK for small traffic)
+                try {
+                    Mail::to('support@librana.ai')->send(new ContactFormMail($validated));
+                } catch (\Exception $e) {
+                    // Log error but don't show to user
+                    \Log::error('Contact form email failed: ' . $e->getMessage());
 
-        // Reset form
-        $this->reset(['fullname', 'phone', 'email', 'message']);
+                    throw ValidationException::withMessages([
+                        'email' => 'Unable to send message. Please try again later or email us directly at support@librana.ai',
+                    ]);
+                }
 
-        $this->successMessage = 'Thank you for contacting us! We will get back to you soon.';
+                $this->reset(['fullname', 'phone', 'email', 'message']);
+                $this->successMessage = 'Thank you for contacting us! We will get back to you soon.';
+
+                // Auto-clear message after 5 seconds
+                $this->dispatch('message-sent');
+            },
+            600 // 10 minutes in seconds
+        );
+
+        if (!$executed) {
+            throw ValidationException::withMessages([
+                'email' => 'Too many submission attempts. Please try again in 10 minutes.',
+            ]);
+        }
     }
 
     public function render(): View
