@@ -35,4 +35,19 @@ class PageController extends Controller
     {
         return view('pages.contact-us');
     }
+
+    public function aiLibrarian()
+    {
+        return view('pages.librarian');
+    }
+
+    public function mentor()
+    {
+        return view('pages.mentor');
+    }
+
+    public function courseAdvisor()
+    {
+        return view('pages.course-advisor');
+    }
 }

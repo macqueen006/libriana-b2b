@@ -1,7 +1,7 @@
 <div>
-    <div class="flex flex-col border border-taupe/40 rounded-xl p-4 sm:p-6 lg:p-10">
+    <div class="flex flex-col border border-neutral/30 rounded-2xl p-6 sm:p-8 lg:p-10 bg-white shadow-sm">
 
-        <!-- Update your success message div -->
+        <!-- Success message -->
         <div x-data="{ show: @entangle('successMessage').live }"
              @message-sent.window="setTimeout(() => $wire.successMessage = '', 5000)">
             @if($successMessage)
@@ -13,81 +13,82 @@
             @endif
         </div>
 
-        <form wire:submit.prevent="submit">
-            <div class="mt-6 grid gap-4 lg:gap-6">
-                <div>
-                    <label for="fullname" class="block mb-2 text-sm text-background font-medium uppercase">
-                        Full name
-                    </label>
-                    <input type="text"
-                           wire:model.blur="fullname"
-                           id="fullname"
-                           name="fullname"
-                           class="py-2.5 sm:py-3 px-4 block w-full border-taupe/40 rounded-lg sm:text-sm focus:border-orange focus:ring-orange disabled:opacity-50 disabled:pointer-events-none bg-body @error('fullname') @enderror">
-                    @error('fullname')
-                    <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
-                    @enderror
-                </div>
-
-                <!-- Grid -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                    <div>
-                        <label for="phone" class="block mb-2 text-sm text-background font-medium uppercase">
-                            Phone
-                        </label>
-                        <input wire:ignore type="tel"
-                               wire:model.blur="phone"
-                               id="phone"
-                               name="phone"
-                               class="py-2.5 sm:py-3 px-4 block w-full border-taupe/40 rounded-lg sm:text-sm focus:border-orange focus:ring-orange disabled:opacity-50 disabled:pointer-events-none bg-body @error('phone') @enderror">
-                        @error('phone')
-                        <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
-                        @enderror
-                    </div>
-
-                    <div>
-                        <label for="email" class="block mb-2 text-sm text-background font-medium uppercase">
-                            Email
-                        </label>
-                        <input type="email"
-                               wire:model.blur="email"
-                               id="email"
-                               name="email"
-                               autocomplete="email"
-                               class="py-2.5 sm:py-3 px-4 block w-full border-taupe/40 rounded-lg sm:text-sm focus:border-orange focus:ring-orange disabled:opacity-50 disabled:pointer-events-none bg-body @error('email') @enderror">
-                        @error('email')
-                        <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
-                        @enderror
-                    </div>
-                    <input type="text"
-                           wire:model="honeypot"
-                           class="sr-only"
-                           name="honeypot"
-                           tabindex="-1"
-                           autocomplete="off">
-                </div>
-                <!-- End Grid -->
-
-                <div>
-                    <label for="message" class="block mb-2 text-sm text-background font-medium uppercase">
-                        Message
-                    </label>
-                    <textarea wire:model.blur="message"
-                              id="message"
-                              name="message"
-                              rows="4"
-                              class="py-2.5 sm:py-3 px-4 block w-full border-taupe/40 rounded-lg sm:text-sm focus:border-orange focus:ring-orange disabled:opacity-50 disabled:pointer-events-none bg-body @error('message') @enderror"></textarea>
-                    @error('message')
-                    <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
-                    @enderror
-                </div>
+        <form wire:submit.prevent="submit" class="space-y-6">
+            <!-- Full Name -->
+            <div>
+                <label for="fullname" class="block mb-2 text-sm font-semibold text-taupe uppercase">
+                    Full name
+                </label>
+                <input type="text"
+                       wire:model.blur="fullname"
+                       id="fullname"
+                       name="fullname"
+                       class="py-3 px-4 block w-full border border-taupe/30 rounded-lg text-body focus:border-primary focus:ring-1 focus:ring-primary disabled:opacity-50 disabled:pointer-events-none bg-neutral/10 placeholder:text-neutral/60">
+                @error('fullname')
+                <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
+                @enderror
             </div>
 
-            <div class="mt-6 grid">
+            <!-- Contact Details Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                    <label for="phone" class="block mb-2 text-sm font-semibold text-taupe uppercase">
+                        Phone
+                    </label>
+                    <input type="tel"
+                           wire:model.blur="phone"
+                           id="phone"
+                           name="phone"
+                           class="py-3 px-4 block w-full border border-taupe/30 rounded-lg text-body focus:border-primary focus:ring-1 focus:ring-primary bg-neutral/10 placeholder:text-neutral/60">
+                    @error('phone')
+                    <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
+                    @enderror
+                </div>
+
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-semibold text-taupe uppercase">
+                        Email
+                    </label>
+                    <input type="email"
+                           wire:model.blur="email"
+                           id="email"
+                           name="email"
+                           autocomplete="email"
+                           class="py-3 px-4 block w-full border border-taupe/30 rounded-lg text-body focus:border-primary focus:ring-1 focus:ring-primary bg-neutral/10 placeholder:text-neutral/60">
+                    @error('email')
+                    <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
+                    @enderror
+                </div>
+
+                <input type="text"
+                       wire:model="honeypot"
+                       class="sr-only"
+                       name="honeypot"
+                       tabindex="-1"
+                       autocomplete="off">
+            </div>
+
+            <!-- Message -->
+            <div>
+                <label for="message" class="block mb-2 text-sm font-semibold text-taupe uppercase">
+                    Message
+                </label>
+                <textarea wire:model.blur="message"
+                          id="message"
+                          name="message"
+                          rows="4"
+                          class="py-3 px-4 block w-full border border-taupe/30 rounded-lg text-body focus:border-primary focus:ring-1 focus:ring-primary bg-neutral/10 placeholder:text-neutral/60"></textarea>
+                @error('message')
+                <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
+                @enderror
+            </div>
+
+            <!-- Submit -->
+            <div class="mt-6">
                 <button type="submit"
                         wire:loading.attr="disabled"
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-orange text-white hover:bg-primary-shade-40 focus:outline-hidden focus:bg-primary-shade-10 disabled:opacity-50 disabled:pointer-events-none">
-                    <span wire:loading.remove>Send inquiry</span>
+                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg bg-primary text-white hover:bg-secondary focus:ring-2 focus:ring-primary/50 transition disabled:opacity-50 disabled:pointer-events-none">
+                    <span wire:loading.remove>Send Inquiry</span>
                     <svg wire:loading class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                          viewBox="0 0 24 24">
                         <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
@@ -101,8 +102,8 @@
         </form>
 
         <div class="mt-3 text-center">
-            <p class="text-sm text-background/70">
-                We'll get back to you in 1-2 business days.
+            <p class="text-sm text-neutral-500">
+                We'll get back to you in 1–2 business days.
             </p>
         </div>
     </div>
