@@ -28,7 +28,7 @@
         <div class="container mx-auto px-6 max-w-6xl">
             <div class="prose prose-lg max-w-none">
                 <p class="text-lg text-gray-700 leading-relaxed">
-                    Built on advanced conversational AI, the <strong>Courseware Advisor</strong> acts as a university-trained, always-on academic counselor. It helps students, prospective learners, staff, and alumni instantly identify the most suitable programs, courses, or degrees—based solely on verified information from the institution's official catalog and trusted academic sources.
+                    Built on advanced conversational AI, the <strong>Courseware Advisor</strong> acts as a university trained, always-on academic counselor. It helps students, prospective learners, staff, and alumni instantly identify the most suitable programs, courses, or degrees based solely on verified information from the institution's official catalog and trusted academic sources.
                 </p>
             </div>
         </div>

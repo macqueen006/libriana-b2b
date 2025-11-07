@@ -21,7 +21,7 @@
                     help librarians master hard skills, strengthen soft skills, and deliver exceptional patron service.
                 </p>
                 <p>
-                    Unlike static manuals or occasional workshops, the Librana Mentor is always on—24/7—providing
+                    Unlike static manuals or occasional workshops, the Librana Mentor is always on 24/7 providing
                     personalised, just-in-time support. Every interaction transforms a real-world challenge into a
                     learning moment that makes librarians stronger, more confident, and better prepared.
                 </p>
@@ -37,7 +37,7 @@
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="text-xl font-semibold text-blue-700 mb-3">Elevates Staff Competence</h3>
                     <p class="text-gray-700">Covers cataloguing, metadata, acquisitions, licensing, authentication,
-                        policy application, reference interviewing, leadership, communication, and more—aligned with
+                        policy application, reference interviewing, leadership, communication, and more aligned with
                         recognised professional standards.</p>
                 </div>
 
@@ -96,7 +96,7 @@
                 <div class="flex items-start gap-4">
                     <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
                     <p class="text-gray-700">Offers frameworks and criteria to guide staff in evaluating and selecting
-                        digital platforms, budgets, and space planning options—helping them make informed, defensible
+                        digital platforms, budgets, and space planning options helping them make informed, defensible
                         choices.</p>
                 </div>
 
@@ -132,7 +132,7 @@
 
             <div class="mt-8 p-6 bg-blue-50 border-l-4 border-blue-600 rounded">
                 <p class="text-gray-800 font-medium">
-                    With the Librana Mentor, hard skills are strengthened first—and soft skills enhanced alongside—so
+                    With the Librana Mentor, hard skills are strengthened first and soft skills enhanced alongside so
                     every librarian gains a consistent, expert, and confidential partner for growth.
                 </p>
             </div>
@@ -201,7 +201,7 @@
                 </p>
                 <p class="text-lg text-blue-100">
                     It strengthens their skills and competence in every dimension needed to be a successful
-                    librarian—always available, always focused on professional growth.
+                    librarian always available, always focused on professional growth.
                 </p>
             </div>
         </div>

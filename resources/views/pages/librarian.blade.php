@@ -14,7 +14,7 @@
         <div class="container mx-auto px-6 max-w-6xl">
             <div class="prose prose-lg max-w-none text-gray-700">
                 <p class="text-xl mb-6">
-                    <strong>Librana® AI Librarian</strong> is not just a chatbot trained on library knowledge — it is an AI-powered assistant engineered to chat and guide like a real academic librarian. Its behavior is carefully designed to model reference service: clear, empathetic, professional, and always aligned with the academic mission.
+                    <strong>Librana® AI Librarian</strong> is not just a chatbot trained on library knowledge it is an AI-powered assistant engineered to chat and guide like a real academic librarian. Its behavior is carefully designed to model reference service: clear, empathetic, professional, and always aligned with the academic mission.
                 </p>
                 <p class="text-lg mb-6">
                     Unlike typical library AI chatbots that only "retrieve" from a knowledge base, Librana AI Librarian embodies librarianship and research coaching best practices, frameworks, and ethical norms. This makes it not only more engaging, but also more reliable and safer, reducing the chance of unacceptable or misleading answers that can emerge from generic AI.
@@ -56,7 +56,7 @@
             <div class="mt-12 text-center">
                 <div class="bg-gradient-to-r from-indigo-900 to-purple-900 text-white p-8 rounded-xl shadow-lg inline-block">
                     <p class="text-xl font-semibold">
-                        It's not a replacement for your team — it's a digital partner that brings the library's values to life 24/7.
+                        It's not a replacement for your team it's a digital partner that brings the library's values to life 24/7.
                     </p>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <div class="bg-red-50 p-8 rounded-lg border-l-4 border-red-500">
                     <h3 class="text-2xl font-semibold text-red-900 mb-4">Without it</h3>
                     <p class="text-gray-700 text-lg">
-                        AI feels <strong>transactional and probabilistic</strong>: users ask, it answers — sometimes wrongly.
+                        AI feels <strong>transactional and probabilistic</strong>: users ask, it answers sometimes wrongly.
                     </p>
                 </div>
 
@@ -109,7 +109,7 @@
                     </tr>
                     <tr class="hover:bg-gray-50 bg-indigo-50">
                         <td class="px-6 py-4 font-semibold text-gray-900">User Support Focus</td>
-                        <td class="px-6 py-4 text-gray-700">Teaches and coaches; helps users build skills</td>
+                        <td class="px-6 py-4 text-gray-700">Teaches and coaches, helps users build skills</td>
                         <td class="px-6 py-4 text-gray-700">Provides answers but rarely explains or teaches</td>
                     </tr>
                     <tr class="hover:bg-gray-50">
@@ -140,7 +140,7 @@
                     <tr class="hover:bg-gray-50 bg-indigo-50">
                         <td class="px-6 py-4 font-semibold text-gray-900">Value to the Library</td>
                         <td class="px-6 py-4 text-gray-700">Extends librarian presence and pedagogy digitally</td>
-                        <td class="px-6 py-4 text-gray-700">Automates FAQ-like responses without human touch</td>
+                        <td class="px-6 py-4 text-gray-700">Automates FAQ like responses without human touch</td>
                     </tr>
                     <tr class="hover:bg-gray-50">
                         <td class="px-6 py-4 font-semibold text-gray-900">Impact on Users</td>
