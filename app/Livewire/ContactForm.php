@@ -71,7 +71,7 @@ class ContactForm extends Component
                 }
 
                 $this->reset(['fullname', 'phone', 'email', 'message']);
-                $this->successMessage = 'Thank you for contacting us! We will get back to you soon.';
+                $this->successMessage = 'Message sent! We\'ll be in touch.';
 
                 // Auto-clear message after 5 seconds
                 $this->dispatch('message-sent');

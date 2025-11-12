@@ -85,8 +85,8 @@
                 @foreach ([
                     'home' => 'Home',
                     'about-us' => 'About',
-                    'product' => 'Product',
-                    'solution' => 'Solution',
+                    'products' => 'Products',
+                    'solutions' => 'Solutions',
                     'our-story' => 'Our Story',
                     'contact-us' => 'Contact Us'
                 ] as $route => $label)
@@ -124,7 +124,7 @@
             <div class="flex flex-col sm:flex-row lg:flex-col gap-5 flex-1">
                 <div class="flex flex-col gap-5 flex-1">
                     <a href="{{ route('home') }}">
-                        <div class="logo h-[30px] w-[108px] relative">
+                        <div class="logo h-9 w-[136px] relative">
                             <img src="{{ asset('img/logo-text.svg') }}" class="w-full h-full object-contain"
                                  alt="Librana AI logo">
                         </div>
@@ -159,20 +159,20 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('product') }}"
+                            <a href="{{ route('products') }}"
                                class="relative inline-block hover:text-accent transition">
-                                Product
-                                @if(isActiveRoute('product'))
+                                Products
+                                @if(isActiveRoute('products'))
                                     <span
                                         class="absolute left-0 bottom-[-3px] w-full h-[2px] bg-accent rounded-full"></span>
                                 @endif
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('solution') }}"
+                            <a href="{{ route('solutions') }}"
                                class="relative inline-block hover:text-accent transition">
-                                Solution
-                                @if(isActiveRoute('solution'))
+                                Solutions
+                                @if(isActiveRoute('solutions'))
                                     <span
                                         class="absolute left-0 bottom-[-3px] w-full h-[2px] bg-accent rounded-full"></span>
                                 @endif

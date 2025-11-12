@@ -1,18 +1,6 @@
 <div>
     <div class="flex flex-col border border-neutral/30 rounded-2xl p-6 sm:p-8 lg:p-10 bg-white shadow-sm">
 
-        <!-- Success message -->
-        <div x-data="{ show: @entangle('successMessage').live }"
-             @message-sent.window="setTimeout(() => $wire.successMessage = '', 5000)">
-            @if($successMessage)
-                <div x-show="show"
-                     x-transition
-                     class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                    {{ $successMessage }}
-                </div>
-            @endif
-        </div>
-
         <form wire:submit.prevent="submit" class="space-y-6">
             <!-- Full Name -->
             <div>
@@ -20,7 +8,7 @@
                     Full name
                 </label>
                 <input type="text"
-                       wire:model.blur="fullname"
+                       wire:model.defer="fullname"
                        id="fullname"
                        name="fullname"
                        class="py-3 px-4 block w-full border border-taupe/30 rounded-lg text-body focus:border-primary focus:ring-1 focus:ring-primary disabled:opacity-50 disabled:pointer-events-none bg-neutral/10 placeholder:text-neutral/60">
@@ -36,7 +24,7 @@
                         Phone
                     </label>
                     <input type="tel"
-                           wire:model.blur="phone"
+                           wire:model.defer="phone"
                            id="phone"
                            name="phone"
                            class="py-3 px-4 block w-full border border-taupe/30 rounded-lg text-body focus:border-primary focus:ring-1 focus:ring-primary bg-neutral/10 placeholder:text-neutral/60">
@@ -50,7 +38,7 @@
                         Email
                     </label>
                     <input type="email"
-                           wire:model.blur="email"
+                           wire:model.defer="email"
                            id="email"
                            name="email"
                            autocomplete="email"
@@ -73,7 +61,7 @@
                 <label for="message" class="block mb-2 text-sm font-semibold text-taupe uppercase">
                     Message
                 </label>
-                <textarea wire:model.blur="message"
+                <textarea wire:model.defer="message"
                           id="message"
                           name="message"
                           rows="4"
@@ -100,6 +88,18 @@
                 </button>
             </div>
         </form>
+
+        <!-- Success message -->
+        <div x-data="{ show: @entangle('successMessage').live }"
+             @message-sent.window="setTimeout(() => $wire.successMessage = '', 5000)">
+            @if($successMessage)
+                <div x-show="show"
+                     x-transition
+                     class="mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+                    {{ $successMessage }}
+                </div>
+            @endif
+        </div>
 
         <div class="mt-3 text-center">
             <p class="text-sm text-neutral-500">

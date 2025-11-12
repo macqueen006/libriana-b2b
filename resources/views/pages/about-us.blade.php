@@ -18,7 +18,7 @@
                     redefining how libraries serve, teach, and connect.
                 </p>
 
-                <button class="btn group mt-6 relative overflow-hidden">
+                <a href="{{route('solutions')}}" class="btn group mt-6 relative overflow-hidden w-fit">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)] transition-all duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                              viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -31,7 +31,7 @@
                     <span class="text-white text-base font-semibold">
                       Discover Librana Solutions
                     </span>
-                </button>
+                </a>
             </div>
         </div>
     </section>
