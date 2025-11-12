@@ -1,22 +1,37 @@
-import "preline";
+// Check current page
+const isHomePage = document.body.classList.contains('home') ||
+    document.querySelector('.hero-text');
 
-import {gsap} from 'gsap';
-import {ScrollTrigger} from 'gsap/ScrollTrigger';
+const initPreline = async () => {
+    if (document.querySelector('[data-hs-overlay]') ||
+        document.querySelector('[data-hs-dropdown]') ||
+        document.querySelector('[data-hs-collapse]')) {
+        await import('preline');
+    }
+};
 
-gsap.registerPlugin(ScrollTrigger);
+const initHomeAnimations = async () => {
+    if (!isHomePage) return; // Skip if not home page
 
-document.addEventListener('DOMContentLoaded', () => {
-    initHomeAnimations();
-});
-
-function initHomeAnimations() {
     const heroTitle = document.querySelector(".hero-text h1");
     const heroSubheading = document.querySelector(".hero-text .subheading");
 
     if (heroTitle && heroSubheading) {
-        const heroTimeline = gsap.timeline({defaults: {ease: "power3.out"}});
+        const { gsap } = await import('gsap');
+        const { ScrollTrigger } = await import('gsap/ScrollTrigger');
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        const heroTimeline = gsap.timeline({ defaults: { ease: "power3.out" } });
         heroTimeline
-            .from(heroTitle, {y: 80, opacity: 0, duration: 1.4})
-            .from(heroSubheading, {y: 60, opacity: 0, duration: 1.2}, "-=0.8");
+            .from(heroTitle, { y: 80, opacity: 0, duration: 1.4 })
+            .from(heroSubheading, { y: 60, opacity: 0, duration: 1.2 }, "-=0.8");
     }
-}
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    Promise.all([
+        initPreline(),
+        initHomeAnimations()
+    ]).catch(err => console.error('Initialization error:', err));
+});
