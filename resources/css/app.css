@@ -51,7 +51,7 @@
 
 @layer base {
     * {
-        @apply transition-colors duration-300 ease-in-out p-0 m-0;
+        @apply p-0 m-0;
     }
 
     html {
@@ -80,6 +80,10 @@
 
     img {
         @apply w-full h-full object-cover max-w-full block;
+    }
+
+    a, button, input, select, textarea {
+        @apply transition-colors duration-300 ease-in-out;
     }
 }
 
@@ -129,6 +133,8 @@
     }
     .animate-gradient-move {
         animation: gradient-move 10s ease infinite;
+        will-change: background-position;
+        transform: translateZ(0);
     }
 
     .grid-card-6 {

@@ -23,8 +23,6 @@
                     Empower your library with AI solutions that think, guide, and mentor like professional librarians
                     delivering 24/7 support that combines empathy, ethics, and academic excellence.
                 </p>
-
-
             </div>
         </div>
     </section>
