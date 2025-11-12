@@ -1,18 +1,6 @@
-// Check current page
-const isHomePage = document.body.classList.contains('home') ||
-    document.querySelector('.hero-text');
-
-const initPreline = async () => {
-    if (document.querySelector('[data-hs-overlay]') ||
-        document.querySelector('[data-hs-dropdown]') ||
-        document.querySelector('[data-hs-collapse]')) {
-        await import('preline');
-    }
-};
+import "preline";
 
 const initHomeAnimations = async () => {
-    if (!isHomePage) return; // Skip if not home page
-
     const heroTitle = document.querySelector(".hero-text h1");
     const heroSubheading = document.querySelector(".hero-text .subheading");
 
@@ -30,8 +18,5 @@ const initHomeAnimations = async () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    Promise.all([
-        initPreline(),
-        initHomeAnimations()
-    ]).catch(err => console.error('Initialization error:', err));
+    initHomeAnimations().catch(err => console.error('Animation error:', err));
 });

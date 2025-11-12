@@ -59,7 +59,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/librarian-computer.webp')}}"
                              class="w-full h-full object-cover"
-                             alt="metrics"
+                             alt="Librana AI Librarian - Digital librarian assistant"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                     </div>
                     <!-- End image -->
@@ -78,7 +82,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/mentor.webp')}}"
                              class="w-full h-full object-cover"
-                             alt="metrics"
+                             alt="Librana Mentor - Professional development for librarians"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                     </div>
                     <!-- End image -->
@@ -97,7 +105,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/academic-pathway.webp')}}"
                              class="w-full h-full object-cover"
-                             alt="metrics"
+                             alt="Librana Courseware Advisor - Academic guidance tool"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                     </div>
                     <!-- End image -->
@@ -186,8 +198,14 @@
                     </div>
                 </div>
                 <div class="flex-1 w-full relative min-h-[374px]">
-                    <img src="{{asset('img/library.webp')}}" class="absolute left-0 top-0 w-full h-full object-cover rounded-sm" alt="Excellence and Integrity">
-                </div>
+                    <img src="{{asset('img/library.webp')}}"
+                         class="absolute left-0 top-0 w-full h-full object-cover rounded-sm"
+                         alt="Excellence and Integrity in library services"
+                         loading="lazy"
+                         decoding="async"
+                         width="400"
+                         height="374">
+                 </div>
                 <div class="space-y-5 flex-1">
                     <div class="space-y-5">
                         <div class="border border-taupe/40 rounded-sm py-5 px-4 flex-1 bg-white hover:border-primary/50 transition-colors">
@@ -287,7 +305,11 @@
                     <div class="absolute inset-0 bg-primary/5 rounded-lg blur-3xl"></div>
                     <img src="{{asset('img/solution.webp')}}"
                          class="relative w-full h-full object-contain rounded-sm"
-                         alt="metrics">
+                         alt="Choose your AI solution"
+                         loading="lazy"
+                         decoding="async"
+                         width="600"
+                         height="400">
                 </div>
             </div>
         </div>

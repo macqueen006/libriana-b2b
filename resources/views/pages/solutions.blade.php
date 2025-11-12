@@ -45,8 +45,13 @@
                     class="p-3 rounded-md flex items-start gap-3 bg-primary text-white shadow-lg w-full sm:w-fit
                md:absolute md:top-5 md:left-5 md:justify-start">
                     <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                        <img src="{{ asset('img/profile-1.webp') }}" class="absolute w-full h-full object-cover"
-                             alt="profile picture">
+                        <img src="{{ asset('img/profile-1.webp') }}"
+                             class="absolute w-full h-full object-cover"
+                             alt="Librana AI Librarian profile"
+                             loading="lazy"
+                             decoding="async"
+                             width="42"
+                             height="42">
                     </div>
                     <div class="flex-1">
                         <span class="font-medium block">Librana® AI Librarian</span>
@@ -65,8 +70,13 @@
                     <!-- Sarah -->
                     <div class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/young-woman.webp') }}" class="absolute w-full h-full object-cover"
-                                 alt="profile picture">
+                            <img src="{{ asset('img/young-woman.webp') }}"
+                                 class="absolute w-full h-full object-cover"
+                                 alt="Sarah Graduate Student profile"
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="42"
+                                 height="42">
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">Sarah, Graduate Student</span>
@@ -81,8 +91,13 @@
                     <div
                         class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/profile-2.webp') }}" class="absolute w-full h-full object-cover"
-                                 alt="profile picture">
+                            <img src="{{ asset('img/profile-2.webp') }}"
+                                 class="absolute w-full h-full object-cover"
+                                 alt="Dr. James Faculty profile"
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="42"
+                                 height="42">
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">Dr. James, Faculty</span>
@@ -97,8 +112,13 @@
                     <div
                         class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/profile-3.webp') }}" class="absolute w-full h-full object-cover"
-                                 alt="profile picture">
+                            <img src="{{ asset('img/profile-3.webp') }}"
+                                 class="absolute w-full h-full object-cover"
+                                 alt="David Undergraduate profile"
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="42"
+                                 height="42">
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">David, Undergraduate</span>
@@ -113,8 +133,13 @@
                     <div
                         class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/young-woman-2.webp') }}" class="absolute w-full h-full object-cover"
-                                 alt="profile picture">
+                            <img src="{{ asset('img/young-woman-2.webp') }}"
+                                 class="absolute w-full h-full object-cover"
+                                 alt="Rachel PhD Postgraduate profile"
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="42"
+                                 height="42">
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">Rachel, PhD Postgraduate</span>
@@ -286,6 +311,10 @@
                     src="{{ asset('img/engagement.webp') }}"
                     class="absolute top-0 left-0 w-full h-full object-cover rounded-lg shadow-md"
                     alt="metrics"
+                    loading="lazy"
+                    decoding="async"
+                    width="600"
+                    height="512"
                 />
             </div>
 
@@ -398,6 +427,10 @@
                         src="{{ asset('img/data-usage.webp') }}"
                         class="w-full h-full object-cover"
                         alt="metrics"
+                        loading="lazy"
+                        decoding="async"
+                        width="600"
+                        height="512"
                     />
                 </div>
             </div>

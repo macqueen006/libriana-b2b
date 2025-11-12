@@ -11,12 +11,6 @@
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
-  "node_modules/preline/src/index.ts": {
-    "file": "assets/index-4WiK3CXK.js",
-    "name": "index",
-    "src": "node_modules/preline/src/index.ts",
-    "isDynamicEntry": true
-  },
   "resources/css/app.css": {
     "file": "assets/app-CVT_Ds8R.css",
     "src": "resources/css/app.css",
@@ -26,12 +20,11 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-DcxgpBrI.js",
+    "file": "assets/app-CNYAoqIN.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
-      "node_modules/preline/src/index.ts",
       "node_modules/gsap/index.js",
       "node_modules/gsap/ScrollTrigger.js"
     ]

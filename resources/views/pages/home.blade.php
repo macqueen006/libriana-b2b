@@ -351,8 +351,8 @@
         <div class="wrapper py-10">
             <div class="flex flex-col gap-2.5">
                 <div class="wrapper-text">
-                    <span
-                        class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium uppercase bg-primary/10 border border-primary text-primary">Efficiency</span>
+                <span
+                    class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium uppercase bg-primary/10 border border-primary text-primary">Efficiency</span>
                     <h2 class="text-primary">Intelligence That Scales with Your Library</h2>
                     <p class="subheading-small text-gray-700">
                         Librana.ai combines cutting-edge AI with professional library standards to deliver solutions
@@ -370,7 +370,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/bar-cardr.webp')}}"
                              class="w-full h-full object-cover absolute top-0 left-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="metrics"
+                             alt="Smart Reference Analytics"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
                     </div>
@@ -392,7 +396,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/card-flowr.webp')}}"
                              class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="metrics"
+                             alt="Intelligent Service Automation"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
                     </div>
@@ -414,7 +422,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/integration-cardr.webp')}}"
                              class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="metrics"
+                             alt="Predictive Library Intelligence"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
                     </div>
@@ -437,7 +449,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/progress-cardr.webp')}}"
                              class="w-full h-full object-contain absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="metrics"
+                             alt="Professional Development Tracking"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
                     </div>
@@ -459,7 +475,11 @@
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
                         <img src="{{asset('img/searches-cardr.webp')}}"
                              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                             alt="metrics"
+                             alt="Course Discovery Intelligence"
+                             loading="lazy"
+                             decoding="async"
+                             width="400"
+                             height="256"
                         >
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
                     </div>
@@ -766,7 +786,11 @@
             <div class="flex-1 relative min-h-[512px] w-full">
                 <img src="{{asset('img/uptime-cardr.webp')}}"
                      class="absolute top-0 left-0 w-full h-full object-contain"
-                     alt="metrics"
+                     alt="Advanced Protection for Library Data visualization"
+                     loading="lazy"
+                     decoding="async"
+                     width="600"
+                     height="512"
                 >
             </div>
         </div>
@@ -779,7 +803,11 @@
             <div class="flex-1 relative min-h-[512px] w-full">
                 <img src="{{asset('img/security.webp')}}"
                      class="absolute top-0 left-0 w-full h-full object-cover"
-                     alt="metrics"
+                     alt="Data Security visualization"
+                     loading="lazy"
+                     decoding="async"
+                     width="600"
+                     height="512"
                 >
             </div>
             <div class="flex flex-col gap-5 pt-2.5 flex-1 justify-start">
