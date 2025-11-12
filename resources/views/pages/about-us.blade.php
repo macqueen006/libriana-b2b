@@ -57,7 +57,7 @@
                 <div class="border border-gray-200 shadow-sm rounded-sm h-full flex flex-col relative space-y-5 col-span-1">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/librarian-computer.png')}}"
+                        <img src="{{asset('img/librarian-computer.webp')}}"
                              class="w-full h-full object-cover"
                              alt="metrics"
                         >
@@ -76,7 +76,7 @@
                 <div class="border border-gray-200 shadow-sm rounded-sm h-full flex flex-col relative space-y-5 col-span-1">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/mentor.png')}}"
+                        <img src="{{asset('img/mentor.webp')}}"
                              class="w-full h-full object-cover"
                              alt="metrics"
                         >
@@ -95,7 +95,7 @@
                 <div class="border border-gray-200 shadow-sm rounded-sm h-full flex flex-col relative space-y-5 col-span-1">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/academic-pathway.png')}}"
+                        <img src="{{asset('img/academic-pathway.webp')}}"
                              class="w-full h-full object-cover"
                              alt="metrics"
                         >
@@ -186,7 +186,7 @@
                     </div>
                 </div>
                 <div class="flex-1 w-full relative min-h-[374px]">
-                    <img src="{{asset('img/library.png')}}" class="absolute left-0 top-0 w-full h-full object-cover rounded-sm" alt="Excellence and Integrity">
+                    <img src="{{asset('img/library.webp')}}" class="absolute left-0 top-0 w-full h-full object-cover rounded-sm" alt="Excellence and Integrity">
                 </div>
                 <div class="space-y-5 flex-1">
                     <div class="space-y-5">
@@ -285,7 +285,7 @@
             <div class="flex-1 relative min-h-[400px] w-full flex justify-end items-center">
                 <div class="lg:w-3/4 lg:h-3/4 relative">
                     <div class="absolute inset-0 bg-primary/5 rounded-lg blur-3xl"></div>
-                    <img src="{{asset('img/solution.png')}}"
+                    <img src="{{asset('img/solution.webp')}}"
                          class="relative w-full h-full object-contain rounded-sm"
                          alt="metrics">
                 </div>

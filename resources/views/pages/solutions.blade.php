@@ -45,7 +45,7 @@
                     class="p-3 rounded-md flex items-start gap-3 bg-primary text-white shadow-lg w-full sm:w-fit
                md:absolute md:top-5 md:left-5 md:justify-start">
                     <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                        <img src="{{ asset('img/profile-1.jpg') }}" class="absolute w-full h-full object-cover"
+                        <img src="{{ asset('img/profile-1.webp') }}" class="absolute w-full h-full object-cover"
                              alt="profile picture">
                     </div>
                     <div class="flex-1">
@@ -65,7 +65,7 @@
                     <!-- Sarah -->
                     <div class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/young-woman.png') }}" class="absolute w-full h-full object-cover"
+                            <img src="{{ asset('img/young-woman.webp') }}" class="absolute w-full h-full object-cover"
                                  alt="profile picture">
                         </div>
                         <div class="flex-1">
@@ -81,7 +81,7 @@
                     <div
                         class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/profile-2.jpg') }}" class="absolute w-full h-full object-cover"
+                            <img src="{{ asset('img/profile-2.webp') }}" class="absolute w-full h-full object-cover"
                                  alt="profile picture">
                         </div>
                         <div class="flex-1">
@@ -97,7 +97,7 @@
                     <div
                         class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/profile-3.jpg') }}" class="absolute w-full h-full object-cover"
+                            <img src="{{ asset('img/profile-3.webp') }}" class="absolute w-full h-full object-cover"
                                  alt="profile picture">
                         </div>
                         <div class="flex-1">
@@ -113,7 +113,7 @@
                     <div
                         class="p-2 rounded-md flex items-start gap-3 border border-primary/10 bg-white shadow-sm w-full sm:w-fit">
                         <div class="size-[42px] rounded-md relative overflow-hidden shrink-0">
-                            <img src="{{ asset('img/young-woman-2.png') }}" class="absolute w-full h-full object-cover"
+                            <img src="{{ asset('img/young-woman-2.webp') }}" class="absolute w-full h-full object-cover"
                                  alt="profile picture">
                         </div>
                         <div class="flex-1">
@@ -283,7 +283,7 @@
             <!-- Image -->
             <div class="flex-1 relative min-h-[512px] w-full">
                 <img
-                    src="{{ asset('img/engagement.png') }}"
+                    src="{{ asset('img/engagement.webp') }}"
                     class="absolute top-0 left-0 w-full h-full object-cover rounded-lg shadow-md"
                     alt="metrics"
                 />
@@ -395,7 +395,7 @@
             <div class="flex-1 relative lg:min-h-[512px] w-full flex items-center justify-end">
                 <div class="lg:w-3/4 lg:h-3/4 rounded-lg overflow-hidden shadow-md">
                     <img
-                        src="{{ asset('img/data-usage.png') }}"
+                        src="{{ asset('img/data-usage.webp') }}"
                         class="w-full h-full object-cover"
                         alt="metrics"
                     />

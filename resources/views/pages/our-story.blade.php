@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="flex-1 w-full relative min-h-[374px] rounded-sm overflow-hidden shadow-md">
-                    <img src="{{ asset('img/library-design.png') }}"
+                    <img src="{{ asset('img/library-design.webp') }}"
                          class="absolute inset-0 w-full h-full object-cover"
                          alt="Excellence and Integrity">
                 </div>

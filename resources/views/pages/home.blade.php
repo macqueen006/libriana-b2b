@@ -3,7 +3,7 @@
     <section class="relative px-5 pt-[80px] min-h-[450px] h-[500px] overflow-hidden hero-main text-white">
         <!-- Background Image -->
         <div class="absolute inset-0 z-0 hero-bg-image">
-            <img src="{{ asset('img/hero-bg.png') }}"
+            <img src="{{ asset('img/hero-bg.webp') }}"
                  alt="Background particles"
                  class="w-full h-full object-cover object-center">
         </div>
@@ -370,7 +370,7 @@
                     class="border bg-white border-gray-200 rounded-xl h-full flex flex-col relative shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/bar-cardr.png')}}"
+                        <img src="{{asset('img/bar-cardr.webp')}}"
                              class="w-full h-full object-cover absolute top-0 left-0 group-hover:scale-110 transition-transform duration-300"
                              alt="metrics"
                         >
@@ -392,7 +392,7 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/card-flowr.png')}}"
+                        <img src="{{asset('img/card-flowr.webp')}}"
                              class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
                              alt="metrics"
                         >
@@ -414,7 +414,7 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/integration-cardr.png')}}"
+                        <img src="{{asset('img/integration-cardr.webp')}}"
                              class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
                              alt="metrics"
                         >
@@ -437,7 +437,7 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/progress-cardr.png')}}"
+                        <img src="{{asset('img/progress-cardr.webp')}}"
                              class="w-full h-full object-contain absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
                              alt="metrics"
                         >
@@ -459,7 +459,7 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/searches-cardr.png')}}"
+                        <img src="{{asset('img/searches-cardr.webp')}}"
                              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                              alt="metrics"
                         >
@@ -766,7 +766,7 @@
             </div>
 
             <div class="flex-1 relative min-h-[512px] w-full">
-                <img src="{{asset('img/uptime-cardr.png')}}"
+                <img src="{{asset('img/uptime-cardr.webp')}}"
                      class="absolute top-0 left-0 w-full h-full object-contain"
                      alt="metrics"
                 >
@@ -779,7 +779,7 @@
         <div
             class="flex flex-col-reverse md:flex-row gap-5 items-center justify-center pb-20 relative w-full max-w-[1200px] mx-auto">
             <div class="flex-1 relative min-h-[512px] w-full">
-                <img src="{{asset('img/security.png')}}"
+                <img src="{{asset('img/security.webp')}}"
                      class="absolute top-0 left-0 w-full h-full object-cover"
                      alt="metrics"
                 >
