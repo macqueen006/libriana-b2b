@@ -1,16 +1,6 @@
 <x-layout title="Home">
     <!-- Hero section -->
     <section class="relative px-5 pt-[80px] min-h-[450px] h-[500px] overflow-hidden hero-main text-white">
-        <!-- Background Image -->
-        <div class="absolute inset-0 z-0 hero-bg-image">
-            <img src="{{ asset('img/hero-bg.webp') }}"
-                 alt="Background particles"
-                 class="w-full h-full object-cover object-center">
-        </div>
-
-        <!-- Gradient Overlay -->
-        <div class="absolute inset-0 z-[1] bg-gradient-to-br from-[#0046FF]/20 via-[#FF8040]/10 to-[#F5F1DC]/20"></div>
-
         <!-- Content -->
         <div class="wrapper pb-10 relative z-10">
             <div class="wrapper-text hero-text text-body text-center md:text-left">
@@ -25,6 +15,18 @@
                 </p>
             </div>
         </div>
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0 hero-bg-image">
+            <img src="{{ asset('img/hero-bg.webp') }}"
+                 alt="Background particles"
+                 fetchpriority="high"
+                 loading="eager"
+                 class="w-full h-full object-cover object-center">
+        </div>
+
+        <!-- Gradient Overlay -->
+        <div class="absolute inset-0 z-[1] bg-gradient-to-br from-[#0046FF]/20 via-[#FF8040]/10 to-[#F5F1DC]/20"></div>
+
     </section>
 
     <section class="content-flex-center bg-neutral">
