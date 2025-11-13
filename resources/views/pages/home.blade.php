@@ -1,4 +1,7 @@
 <x-layout title="Home">
+    <x-slot:preload>
+        <link rel="preload" as="image" href="{{ asset('img/hero-bg.webp') }}" fetchpriority="high">
+    </x-slot:preload>
     <!-- Hero section -->
     <section class="relative px-5 pt-[80px] min-h-[450px] h-[500px] overflow-hidden hero-main text-white">
         <!-- Content -->
