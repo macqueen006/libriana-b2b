@@ -25,16 +25,16 @@
 </IfModule>
 
 # =====================================================
-# BROWSER CACHING - Added for Performance
+# BROWSER CACHING - Optimized for Laravel + Vite
 # =====================================================
 <IfModule mod_expires.c>
     ExpiresActive On
 
-    # Versioned CSS/JS (with hashes like app-CNYAoqIN.js)
+    # Vite versioned assets (app-DnsnW4ig.css, preline-ZKV-aBPg.js)
     # Cache for 1 year - safe because filenames change when content changes
-    <FilesMatch "^.+\-[A-Za-z0-9_-]{8,}\.(css|js)$">
+    <FilesMatch "\.(css|js)$">
         ExpiresDefault "access plus 1 year"
-        Header set Cache-Control "public, immutable"
+        Header set Cache-Control "public, immutable, max-age=31536000"
     </FilesMatch>
 
     # Images - Cache for 1 year
@@ -47,18 +47,18 @@
     <FilesMatch "\.(woff|woff2|ttf|eot|otf)$">
         ExpiresDefault "access plus 1 year"
         Header set Cache-Control "public, max-age=31536000"
-        # CORS for web fonts if served from CDN
         Header set Access-Control-Allow-Origin "*"
     </FilesMatch>
+</IfModule>
 
-    # HTML - Short cache (10 minutes) so updates appear quickly
-    <FilesMatch "\.(html|htm)$">
-        ExpiresDefault "access plus 600 seconds"
-        Header set Cache-Control "public, must-revalidate, max-age=600"
+# Prevent caching of dynamic content
+<IfModule mod_headers.c>
+    # Don't cache HTML and PHP files
+    <FilesMatch "\.(html|htm|php)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
     </FilesMatch>
-
-    # Default for other files
-    ExpiresDefault "access plus 1 month"
 </IfModule>
 
 # Enable compression for text files

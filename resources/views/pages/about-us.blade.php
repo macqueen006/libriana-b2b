@@ -68,7 +68,7 @@
                     <!-- End image -->
                     <!-- Text-->
                     <div class="p-5 space-y-5">
-                        <h4 class="text-primary">Librana® AI Librarian</h4>
+                        <h3 class="text-primary text-2xl">Librana® AI Librarian</h3>
                         <p>
                             A digital librarian that thinks, guides, and communicates like a real academic librarian.
                             Human like, empathetic responses rooted in librarianship best practices.
@@ -90,7 +90,7 @@
                     <!-- End image -->
                     <!-- Text-->
                     <div class="p-5 space-y-5">
-                        <h4 class="text-primary">Librana® Mentor</h4>
+                        <h3 class="text-primary text-2xl">Librana® Mentor</h3>
                         <p>
                             The world's first AI-powered professional development companion built exclusively for
                             librarians. Built on global library standards (ALA, IFLA, RUSA, ACRL).
@@ -112,7 +112,7 @@
                     <!-- End image -->
                     <!-- Text-->
                     <div class="p-5 space-y-5">
-                        <h4 class="text-primary">Librana® Courseware Advisor</h4>
+                        <h3 class="text-primary text-2xl">Librana® Courseware Advisor</h3>
                         <p>
                             AI-powered partner for smarter academic and career decisions. Transforms curiosity into
                             confident choices for learners everywhere.

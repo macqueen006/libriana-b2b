@@ -1,4 +1,4 @@
-<x-layout title="Home">
+<x-layout title="Librana.ai - Transforming Libraries With AI Intelligence">
     <!-- Hero section -->
     <section class="relative px-5 pt-[80px] min-h-[450px] h-[500px] overflow-hidden hero-main text-white">
         <!-- Content -->
@@ -89,9 +89,9 @@
                 <!-- image -->
                 <div class="relative w-full shrink-0 overflow-hidden">
                     <p class="capitalize text-body font-semibold">Librana® AI Librarian</p>
-                    <h4 class="text-lg text-gray-700">
+                    <span class="text-lg text-gray-700">
                         A Digital Librarian with Personality, Empathy, and Purpose!
-                    </h4>
+                    </span>
                 </div>
                 <!-- End image -->
                 <div class="w-full">
@@ -176,9 +176,9 @@
                 <!-- image -->
                 <div class="relative w-full shrink-0 overflow-hidden">
                     <p class="capitalize text-body font-semibold">Librana® Mentor</p>
-                    <h4 class="text-lg text-gray-700">
+                    <span class="text-lg text-gray-700">
                         The AI Mentor for Librarians
-                    </h4>
+                    </span>
                 </div>
                 <!-- End image -->
                 <div class="w-full">
@@ -246,7 +246,9 @@
                     </li>
                 </ul>
                 <!-- End Text-->
-                <a href="{{ route('mentor') }}" class="w-fit btn group inline-flex">
+                <a href="{{ route('mentor') }}"
+                   aria-label="AI Mentor for Librarians"
+                   class="w-fit btn group inline-flex">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -263,9 +265,9 @@
                 <!-- image -->
                 <div class="relative w-full shrink-0 overflow-hidden">
                     <p class="capitalize text-body font-semibold">Librana Courseware Advisor</p>
-                    <h4 class="text-lg text-gray-700">
+                    <span class="text-lg text-gray-700">
                         Your Intelligent Academic Guide Personalized, Accurate, Available
-                    </h4>
+                    </span>
                 </div>
                 <!-- End image -->
                 <div class="w-full">
@@ -333,7 +335,9 @@
                     </li>
                 </ul>
                 <!-- End Text-->
-                <a href="{{ route('course-advisor') }}" class="w-fit btn group inline-flex">
+                <a href="{{ route('course-advisor') }}"
+                   aria-label="AI course advisor"
+                   class="w-fit btn group inline-flex">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"

@@ -1,4 +1,4 @@
-<x-layout title="Contact Us">
+<x-layout title="Contact Us" :useLivewire="true">
     <!-- Hero section -->
     <section
         class="relative px-5 pt-24 pb-16 overflow-hidden text-white bg-gradient-to-br from-[#001234] via-[#001b4f] to-[#0a2a8f] animate-gradient-move bg-[length:200%_200%]">

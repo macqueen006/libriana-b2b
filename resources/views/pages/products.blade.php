@@ -202,7 +202,7 @@
                                             <span>Today 21:00pm</span>
                                         </li>
                                         <li class="flex justify-between">
-                                            <span class="text-accent font-medium">Engineering All Hands</span>
+                                            <span class="text-orange-600 font-medium">Engineering All Hands</span>
                                             <span>Today 1:00am</span>
                                         </li>
                                     </ul>
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-3xl font-semibold text-taupe">99%</h4>
+                            <div class="text-3xl font-semibold text-taupe">99%</div>
                             <p class="text-sm text-body/70 mt-1">
                                 AI solutions built exclusively for academic and public libraries.
                             </p>
@@ -242,11 +242,11 @@
                     <div class="flex items-start gap-4">
                         <div class="flex-shrink-0">
                             <div class="size-10 rounded-md bg-accent/10 flex items-center justify-center">
-                                <span class="text-accent font-semibold text-lg">⚡</span>
+                                <span class="text-orange-600 font-semibold text-lg">⚡</span>
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-3xl font-semibold text-taupe">24/7</h4>
+                            <div class="text-3xl font-semibold text-taupe">24/7</div>
                             <p class="text-sm text-body/70 mt-1">
                                 Professional development and reference support around the clock.
                             </p>
@@ -263,7 +263,7 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-3xl font-semibold text-taupe">3X</h4>
+                            <div class="text-3xl font-semibold text-taupe">3X</div>
                             <p class="text-sm text-body/70 mt-1">
                                 Comprehensive tools for reference, mentoring, and courseware guidance.
                             </p>
@@ -308,19 +308,19 @@
 
                 <ul class="flex flex-col gap-3 text-body/70 text-sm">
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg class="w-5 h-5 text-orange-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span><strong class="text-body font-semibold">Real Librarian:</strong> Converses like a real librarian.</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg class="w-5 h-5 text-orange-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span><strong class="text-body font-semibold">Multi-factor Authentication:</strong> Added security layer for protection.</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg class="w-5 h-5 text-orange-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span><strong class="text-body font-semibold">24/7 Monitoring:</strong> Continuous monitoring and threat detection.</span>
@@ -338,7 +338,7 @@
             <!-- Card 2 -->
             <div class="border border-taupe/20 bg-white rounded-md p-8 shadow-sm hover:shadow-md transition space-y-5 relative">
                 <div class="relative w-full overflow-hidden">
-                    <p class="text-accent font-semibold uppercase text-sm">librana® Mentor</p>
+                    <p class="text-orange-600 font-semibold uppercase text-sm">librana® Mentor</p>
                     <h4 class="text-lg text-taupe font-semibold">Your AI Librarian Mentor</h4>
                 </div>
 
@@ -348,26 +348,26 @@
 
                 <ul class="flex flex-col gap-3 text-body/70 text-sm">
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg class="w-5 h-5 text-orange-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span><strong class="text-body font-semibold">Regulatory Compliance:</strong> Meets GDPR standards and industry regulations.</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg class="w-5 h-5 text-orange-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span><strong class="text-body font-semibold">AI Guidance:</strong> Personalized mentoring to develop research skills.</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg class="w-5 h-5 text-orange-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span><strong class="text-body font-semibold">24/7 Monitoring:</strong> Continuous improvement and ethical auditing.</span>
                     </li>
                 </ul>
 
-                <a href="{{ route('contact-us') }}" class="inline-flex items-center gap-2 text-accent font-semibold text-sm mt-4 group">
+                <a href="{{ route('contact-us') }}" class="inline-flex items-center gap-2 text-orange-600 font-semibold text-sm mt-4 group">
                     <span>Try it now</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14m-7-7 7 7-7 7"></path>

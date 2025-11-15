@@ -55,13 +55,13 @@
                     </div>
                     <div class="flex-1">
                         <span class="font-medium block">Librana® AI Librarian</span>
-                        <p class="text-xs text-white/80 leading-tight">
+                        <p class="text-xs text-white leading-tight">
                             "Your 24/7 digital reference companion providing empathetic, precise research support."
                         </p>
-                        <p class="text-xs text-white/60 mt-1">Replying now...</p>
+                        <p class="text-xs text-white mt-1">Replying now...</p>
                     </div>
                     <div class="time ml-auto sm:ml-2">
-                        <p class="text-xs text-white/70 whitespace-nowrap">09:45 AM</p>
+                        <p class="text-xs text-white whitespace-nowrap">09:45 AM</p>
                     </div>
                 </div>
 
@@ -80,10 +80,10 @@
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">Sarah, Graduate Student</span>
-                            <p class="text-xs text-neutral-600 leading-[16px]">"Looking for primary sources on climate change research..."</p>
+                            <p class="text-xs text-neutral-700 leading-[16px]">"Looking for primary sources on climate change research..."</p>
                         </div>
                         <div class="time ml-auto sm:ml-2">
-                            <p class="text-xs text-neutral-400 whitespace-nowrap">02:15 AM</p>
+                            <p class="text-xs text-neutral-700 whitespace-nowrap">02:15 AM</p>
                         </div>
                     </div>
 
@@ -101,10 +101,10 @@
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">Dr. James, Faculty</span>
-                            <p class="text-xs text-neutral-600 leading-[16px]">"Need help with systematic literature review..."</p>
+                            <p class="text-xs text-neutral-700 leading-[16px]">"Need help with systematic literature review..."</p>
                         </div>
                         <div class="time ml-auto sm:ml-2">
-                            <p class="text-xs text-neutral-400 whitespace-nowrap">04:01 PM</p>
+                            <p class="text-xs text-neutral-700 whitespace-nowrap">04:01 PM</p>
                         </div>
                     </div>
 
@@ -122,10 +122,10 @@
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">David, Undergraduate</span>
-                            <p class="text-xs text-neutral-600 leading-[16px]">"Need assistance finding stem cells research papers?"</p>
+                            <p class="text-xs text-neutral-700 leading-[16px]">"Need assistance finding stem cells research papers?"</p>
                         </div>
                         <div class="time ml-auto sm:ml-2">
-                            <p class="text-xs text-neutral-400 whitespace-nowrap">06:20 PM</p>
+                            <p class="text-xs text-neutral-700 whitespace-nowrap">06:20 PM</p>
                         </div>
                     </div>
 
@@ -143,10 +143,10 @@
                         </div>
                         <div class="flex-1">
                             <span class="font-medium text-primary block">Rachel, PhD Postgraduate</span>
-                            <p class="text-xs text-neutral-600 leading-[16px]">"Can you recommend databases for sociology research?"</p>
+                            <p class="text-xs text-neutral-700 leading-[16px]">"Can you recommend databases for sociology research?"</p>
                         </div>
                         <div class="time ml-auto sm:ml-2">
-                            <p class="text-xs text-neutral-400 whitespace-nowrap">11:21 AM</p>
+                            <p class="text-xs text-neutral-700 whitespace-nowrap">11:21 AM</p>
                         </div>
                     </div>
                 </div>
@@ -161,12 +161,12 @@
                 <h2 class="max-w-[480px] text-3xl font-semibold text-primary">
                     Workflow Automation
                 </h2>
-                <p class="text-neutral-600 max-w-[480px] leading-relaxed">
+                <p class="text-neutral-700 max-w-[480px] leading-relaxed">
                     Librana AI connects your internal systems, triggers actions based on business logic, and eliminates
                     manual coordination.
                 </p>
 
-                <ul class="flex flex-col gap-4 text-sm text-neutral-600">
+                <ul class="flex flex-col gap-4 text-sm text-neutral-700">
                     <li class="flex items-start gap-3 pl-1">
                         <svg class="w-5 h-5 shrink-0 text-primary mt-0.5" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor" stroke-width="2">
@@ -222,7 +222,7 @@
                         class="size-14 flex items-center justify-center mx-auto rounded-full bg-orange-100 border border-orange-300 group-hover:scale-110 transition-transform duration-300">
                         <div class="size-7 rounded-full bg-orange-500"></div>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6 text-gray-900">Intelligent Query Resolution</h4>
+                    <h3 class="text-xl font-semibold mt-6 text-gray-900">Intelligent Query Resolution</h3>
                     <p class="text-gray-600 mt-3">
                         Transform complex research questions into precise answers instantly connecting patrons to the
                         right resources with librarian-level accuracy.
@@ -236,7 +236,7 @@
                         class="size-14 flex items-center justify-center mx-auto rounded-full bg-orange-100 border border-orange-300 group-hover:scale-110 transition-transform duration-300">
                         <div class="size-7 rounded-full bg-orange-500"></div>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6 text-gray-900">Workflow Intelligence</h4>
+                    <h3 class="text-xl font-semibold mt-6 text-gray-900">Workflow Intelligence</h3>
                     <p class="text-gray-600 mt-3">
                         Automate repetitive tasks from classification to circulation while maintaining the highest
                         standards of library excellence.
@@ -250,7 +250,7 @@
                         class="size-14 flex items-center justify-center mx-auto rounded-full bg-orange-100 border border-orange-300 group-hover:scale-110 transition-transform duration-300">
                         <div class="size-7 rounded-full bg-orange-500"></div>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6 text-gray-900">Empathetic AI Conversations</h4>
+                    <h3 class="text-xl font-semibold mt-6 text-gray-900">Empathetic AI Conversations</h3>
                     <p class="text-gray-600 mt-3">
                         Engage patrons through warm, intuitive dialogue that understands context, emotion, and intent
                         just like your best reference librarians.
@@ -264,7 +264,7 @@
                         class="size-14 flex items-center justify-center mx-auto rounded-full bg-orange-100 border border-orange-300 group-hover:scale-110 transition-transform duration-300">
                         <div class="size-7 rounded-full bg-orange-500"></div>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6 text-gray-900">Strategic Collection Insights</h4>
+                    <h3 class="text-xl font-semibold mt-6 text-gray-900">Strategic Collection Insights</h3>
                     <p class="text-gray-600 mt-3">
                         Discover hidden patterns in usage data and emerging research needs empowering smarter
                         acquisitions and resource allocation.
@@ -278,7 +278,7 @@
                         class="size-14 flex items-center justify-center mx-auto rounded-full bg-orange-100 border border-orange-300 group-hover:scale-110 transition-transform duration-300">
                         <div class="size-7 rounded-full bg-orange-500"></div>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6 text-gray-900">Universal System Harmony</h4>
+                    <h3 class="text-xl font-semibold mt-6 text-gray-900">Universal System Harmony</h3>
                     <p class="text-gray-600 mt-3">
                         Integrate your ILS, discovery layers, and research databases into one cohesive ecosystem that
                         works as hard as your team does.
@@ -292,7 +292,7 @@
                         class="size-14 flex items-center justify-center mx-auto rounded-full bg-orange-100 border border-orange-300 group-hover:scale-110 transition-transform duration-300">
                         <div class="size-7 rounded-full bg-orange-500"></div>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6 text-gray-900">Adaptive Professional Growth</h4>
+                    <h3 class="text-xl font-semibold mt-6 text-gray-900">Adaptive Professional Growth</h3>
                     <p class="text-gray-600 mt-3">
                         Evolve alongside your librarians through personalized mentorship that transforms daily
                         challenges into mastery moments.
@@ -328,7 +328,7 @@
                 </h2>
                 <p class="text-gray-600 max-w-[480px] leading-relaxed">
                     Scale your library services without expanding staff hours. <span
-                        class="font-semibold text-orange-600">librana®</span> supports both patrons and
+                        class="font-semibold text-orange-700">librana®</span> supports both patrons and
                     librarians elevating service quality and professional growth.
                 </p>
 
@@ -374,7 +374,7 @@
                     Data Processing & Insights
                 </h2>
                 <p class="text-gray-600 max-w-[480px] leading-relaxed">
-                    Make better decisions with clean, contextual data. <span class="font-semibold text-orange-600">librana®</span>
+                    Make better decisions with clean, contextual data. <span class="font-semibold text-orange-700">librana®</span>
                     processes your collection data, patron trends, and staff performance into actionable insights.
                 </p>
 

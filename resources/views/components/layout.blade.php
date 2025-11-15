@@ -1,25 +1,47 @@
-@props(['title' => 'librana.ai'])
+@props(['title' => 'librana.ai', 'useLivewire' => false])
 
     <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title }}</title>
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" media="print" onload="this.media='all'">
+
+    <title>{{ $title }}</title>
+
+    {{ $preload ?? '' }}
+
+    @vite(['resources/css/app.css'])
+
+    <style>
+        .hero-text h1,
+        .hero-text .subheading {
+            opacity: 0;
+            will-change: transform, opacity;
+        }
+    </style>
+
+    @if($useLivewire)
+        @livewireScripts
+    @endif
+
+    <!-- Load fonts asynchronously (non-blocking) -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          media="print"
+          onload="this.media='all'">
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
     </noscript>
-    {{ $preload ?? '' }}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @livewireStyles
 </head>
 <body class="antialiased md:subpixel-antialiased">
 <!-- HEADER -->
@@ -287,6 +309,10 @@
     </div>
 </footer>
 
-@livewireScripts
+<!-- JavaScript load after content -->
+@vite(['resources/js/app.js'])
+@if($useLivewire)
+    @livewireScripts
+@endif
 </body>
 </html>

@@ -119,11 +119,6 @@
 }
 
 @layer components {
-    .hero-text h1,
-    .hero-text .subheading {
-        opacity: 0;
-        will-change: transform, opacity;
-    }
 
     @keyframes gradient-move {
         0% {
