@@ -23,3 +23,45 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# =====================================================
+# BROWSER CACHING - Added for Performance
+# =====================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Versioned CSS/JS (with hashes like app-CNYAoqIN.js)
+    # Cache for 1 year - safe because filenames change when content changes
+    <FilesMatch "^.+\-[A-Za-z0-9_-]{8,}\.(css|js)$">
+        ExpiresDefault "access plus 1 year"
+        Header set Cache-Control "public, immutable"
+    </FilesMatch>
+
+    # Images - Cache for 1 year
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico|avif)$">
+        ExpiresDefault "access plus 1 year"
+        Header set Cache-Control "public, max-age=31536000"
+    </FilesMatch>
+
+    # Web Fonts - Cache for 1 year
+    <FilesMatch "\.(woff|woff2|ttf|eot|otf)$">
+        ExpiresDefault "access plus 1 year"
+        Header set Cache-Control "public, max-age=31536000"
+        # CORS for web fonts if served from CDN
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+
+    # HTML - Short cache (10 minutes) so updates appear quickly
+    <FilesMatch "\.(html|htm)$">
+        ExpiresDefault "access plus 600 seconds"
+        Header set Cache-Control "public, must-revalidate, max-age=600"
+    </FilesMatch>
+
+    # Default for other files
+    ExpiresDefault "access plus 1 month"
+</IfModule>
+
+# Enable compression for text files
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>

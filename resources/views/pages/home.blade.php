@@ -1,7 +1,4 @@
 <x-layout title="Home">
-    <x-slot:preload>
-        <link rel="preload" as="image" href="{{ asset('img/hero-bg.webp') }}" fetchpriority="high">
-    </x-slot:preload>
     <!-- Hero section -->
     <section class="relative px-5 pt-[80px] min-h-[450px] h-[500px] overflow-hidden hero-main text-white">
         <!-- Content -->
@@ -20,11 +17,15 @@
         </div>
         <!-- Background Image -->
         <div class="absolute inset-0 z-0 hero-bg-image">
-            <img src="{{ asset('img/hero-bg.webp') }}"
-                 alt="Background particles"
-                 fetchpriority="high"
-                 loading="eager"
-                 class="w-full h-full object-cover object-center">
+            <x-responsive-image
+                src="/img/hero-bg.webp"
+                alt="Background particles"
+                :eager="true"
+                width="1351"
+                height="500"
+                sizes="100vw"
+                class="w-full h-full object-cover object-center"
+            />
         </div>
 
         <!-- Gradient Overlay -->
@@ -35,29 +36,26 @@
     <section class="content-flex-center bg-neutral">
         <div class="max-w-[1200px] mx-auto py-10 w-full">
             <div class="flex flex-col md:flex-row gap-5 md:gap-10">
-                <div
-                    class="border border-secondary/10 hover:border-secondary/30 transition-all duration-300 shadow-sm rounded-sm p-5 flex-1 bg-white">
+                <div class="border border-secondary/10 hover:border-secondary/30 transition-all duration-300 shadow-sm rounded-sm p-5 flex-1 bg-white">
                     <div class="w-full">
                         <div class="flex items-center justify-start gap-5">
-                            <h4 class="text-3xl text-primary">67%</h4>
+                            <div class="text-3xl text-primary font-bold">67%</div>
                             <p class="text-sm text-body opacity-70">Staff Time Saved</p>
                         </div>
                     </div>
                 </div>
-                <div
-                    class="border border-secondary/10 hover:border-secondary/30 transition-all duration-300 shadow-sm rounded-sm p-5 flex-1 bg-white">
+                <div class="border border-secondary/10 hover:border-secondary/30 transition-all duration-300 shadow-sm rounded-sm p-5 flex-1 bg-white">
                     <div class="w-full">
                         <div class="flex items-center justify-start gap-5">
-                            <h4 class="text-3xl text-primary">95%</h4>
+                            <div class="text-3xl text-primary font-bold">95%</div>
                             <p class="text-sm text-body opacity-70">Query Resolution Rate</p>
                         </div>
                     </div>
                 </div>
-                <div
-                    class="border border-secondary/10 hover:border-secondary/30 transition-all duration-300 shadow-sm rounded-sm p-5 flex-1 bg-white">
+                <div class="border border-secondary/10 hover:border-secondary/30 transition-all duration-300 shadow-sm rounded-sm p-5 flex-1 bg-white">
                     <div class="w-full">
                         <div class="flex items-center justify-start gap-5">
-                            <h4 class="text-3xl text-primary">24/7</h4>
+                            <div class="text-3xl text-primary font-bold">24/7</div>
                             <p class="text-sm text-body opacity-70">Always Available Support</p>
                         </div>
                     </div>
@@ -373,20 +371,19 @@
                     class="border bg-white border-gray-200 rounded-xl h-full flex flex-col relative shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/bar-cardr.webp')}}"
-                             class="w-full h-full object-cover absolute top-0 left-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="Smart Reference Analytics"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/bar-cardr.webp"
+                            alt="Smart Reference Analytics"
+                            width="400"
+                            height="256"
+                            class="w-full h-full absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
+                        />
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
                     </div>
                     <!-- End image -->
                     <!-- Text-->
                     <div class="space-y-5 p-6 flex-1 flex flex-col">
-                        <h4 class="text-primary">Smart Reference Analytics</h4>
+                        <h3 class="text-primary text-2xl">Smart Reference Analytics</h3>
                         <p class="text-body/70 flex-1">
                             Track user queries, identify knowledge gaps, and optimize your library services with
                             real-time insights that inform better decisions.
@@ -399,20 +396,19 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/card-flowr.webp')}}"
-                             class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="Intelligent Service Automation"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="/img/card-flowr.webp"
+                            alt="Intelligent Service Automation"
+                            width="400"
+                            height="256"
+                            class="w-full h-full absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
+                        />
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
                     </div>
                     <!-- End image -->
                     <!-- Text-->
                     <div class="space-y-5 p-6 flex-1 flex flex-col">
-                        <h4 class="text-primary">Intelligent Service Automation</h4>
+                        <h3 class="text-primary text-2xl">Intelligent Service Automation</h3>
                         <p class="text-body/70 flex-1">
                             Free your librarians from routine inquiries while ensuring patrons receive accurate,
                             empathetic responses aligned with professional standards
@@ -425,20 +421,19 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/integration-cardr.webp')}}"
-                             class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="Predictive Library Intelligence"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/integration-cardr.webp"
+                            alt="Predictive Library Intelligence"
+                            width="400"
+                            height="256"
+                            class="w-full h-full object-cover absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
+                        />
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
                     </div>
                     <!-- End image -->
                     <!-- Text-->
                     <div class="space-y-5 p-6 flex-1 flex flex-col">
-                        <h4 class="text-primary">Predictive Library Intelligence</h4>
+                        <h3 class="text-primary text-2xl">Predictive Library Intelligence</h3>
                         <p class="text-body/70 flex-1">
                             Anticipate user needs, optimize collection development, and identify emerging research
                             trends with AI-powered analytics.
@@ -452,20 +447,19 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/progress-cardr.webp')}}"
-                             class="w-full h-full object-contain absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
-                             alt="Professional Development Tracking"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/progress-cardr.webp"
+                            alt="Professional Development Tracking"
+                            width="400"
+                            height="256"
+                            class="w-full h-full object-contain absolute left-0 top-0 group-hover:scale-110 transition-transform duration-300"
+                        />
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
                     </div>
                     <!-- End image -->
                     <!-- Text-->
                     <div class="space-y-5 p-6 flex-1 flex flex-col">
-                        <h4 class="text-primary">Professional Development Tracking</h4>
+                        <h3 class="text-primary text-2xl">Professional Development Tracking</h3>
                         <p class="text-body/70 flex-1">
                             Monitor librarian skill growth and identify training opportunities with comprehensive
                             mentorship analytics and progress tracking.
@@ -478,20 +472,19 @@
                     class="border border-gray-200 rounded-xl h-full flex flex-col relative bg-white shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden group">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/searches-cardr.webp')}}"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                             alt="Course Discovery Intelligence"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/searches-cardr.webp"
+                            alt="Course Discovery Intelligence"
+                            width="400"
+                            height="256"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        />
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
                     </div>
                     <!-- End image -->
                     <!-- Text-->
                     <div class="space-y-5 p-6 flex-1 flex flex-col">
-                        <h4 class="text-primary">Course Discovery Intelligence</h4>
+                        <h3 class="text-primary text-2xl">Course Discovery Intelligence</h3>
                         <p class="text-body/70 flex-1">
                             Transform academic advising with AI that understands student goals and matches them with
                             verified programs using natural language understanding.
@@ -553,7 +546,7 @@
                         </defs>
                     </svg>
                 </div>
-                <h4 class="text-gray-900 group-hover:text-primary transition-colors">24/7 Availability</h4>
+                <h3 class="text-gray-900 group-hover:text-primary transition-colors text-2xl">24/7 Availability</h3>
                 <p class="text-gray-600">
                     AI-driven services across all web platforms, mobile, and in person, ensuring patrons get help
                     whenever they need it.
@@ -596,7 +589,7 @@
                         </defs>
                     </svg>
                 </div>
-                <h4 class="text-gray-900 group-hover:text-primary transition-colors">Deep Service Analytics</h4>
+                <h3 class="text-gray-900 group-hover:text-primary transition-colors text-2xl">Deep Service Analytics</h3>
                 <p class="text-gray-600">
                     Unlock actionable insights through real-time dashboards tracking usage
                     patterns, user satisfaction, and service effectiveness.
@@ -627,7 +620,7 @@
                         </defs>
                     </svg>
                 </div>
-                <h4 class="text-gray-900 group-hover:text-primary transition-colors">Intelligent Automation</h4>
+                <h3 class="text-gray-900 group-hover:text-primary transition-colors text-2xl">Intelligent Automation</h3>
                 <p class="text-gray-600">
                     Automate routine tasks while freeing up staff for complex reference work
                     and meaningful patron engagement.
@@ -659,7 +652,7 @@
                         </defs>
                     </svg>
                 </div>
-                <h4 class="text-gray-900 group-hover:text-primary transition-colors">ILS & Catalog Integration</h4>
+                <h3 class="text-gray-900 group-hover:text-primary transition-colors text-2xl">ILS & Catalog Integration</h3>
                 <p class="text-gray-600">
                     Effortlessly connect with your existing library management systems, OPACs, and digital collections
                     no disruption required.
@@ -691,7 +684,7 @@
                         </defs>
                     </svg>
                 </div>
-                <h4 class="text-gray-900 group-hover:text-primary transition-colors">Enterprise Grade Security</h4>
+                <h3 class="text-gray-900 group-hover:text-primary transition-colors text-2xl">Enterprise Grade Security</h3>
                 <p class="text-gray-600">
                     Your user data and institutional information protected with high level encryption and compliance
                     with data protection regulations.
@@ -723,7 +716,7 @@
                         </defs>
                     </svg>
                 </div>
-                <h4 class="text-gray-900 group-hover:text-primary transition-colors">Expert Implementation Support</h4>
+                <h3 class="text-gray-900 group-hover:text-primary transition-colors text-2xl">Expert Implementation Support</h3>
                 <p class="text-gray-600">
                     Our 24/7 support team helps you integrate, customize, and optimize
                     Librana.ai for your unique library environment.
@@ -775,7 +768,7 @@
                         <span><strong class="text-body font-semibold">Role Based Access:</strong> Granular control over who accesses sensitive information</span>
                     </li>
                 </ul>
-                <a href="http://localhost:8000/ai-librarian" class="w-fit btn group inline-flex">
+                <a href="{{route("contact-us")}}" class="w-fit btn group inline-flex">
                     <div class="btn-icon group-hover:w-[calc(100%-0.5rem)]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -784,19 +777,18 @@
                             <path d="m12 5 7 7-7 7"></path>
                         </svg>
                     </div>
-                    <span class="text-white text-base font-semibold capitalize">Get Started</span>
+                    <span class="text-white text-base font-semibold capitalize">Try AI Librarian</span>
                 </a>
             </div>
 
             <div class="flex-1 relative min-h-[512px] w-full">
-                <img src="{{asset('img/uptime-cardr.webp')}}"
-                     class="absolute top-0 left-0 w-full h-full object-contain"
-                     alt="Advanced Protection for Library Data visualization"
-                     loading="lazy"
-                     decoding="async"
-                     width="600"
-                     height="512"
-                >
+                <x-responsive-image
+                    src="img/uptime-cardr.webp"
+                    alt="Advanced Protection for Library Data visualization"
+                    width="600"
+                    height="512"
+                    class="absolute top-0 left-0 w-full h-full object-contain"
+                />
             </div>
         </div>
     </section>
@@ -806,14 +798,13 @@
         <div
             class="flex flex-col-reverse md:flex-row gap-5 items-center justify-center pb-20 relative w-full max-w-[1200px] mx-auto">
             <div class="flex-1 relative min-h-[512px] w-full">
-                <img src="{{asset('img/security.webp')}}"
-                     class="absolute top-0 left-0 w-full h-full object-cover"
-                     alt="Data Security visualization"
-                     loading="lazy"
-                     decoding="async"
-                     width="600"
-                     height="512"
-                >
+                <x-responsive-image
+                    src="img/security.webp"
+                    alt="Data Security visualization"
+                    width="600"
+                    height="512"
+                    class="absolute top-0 left-0 w-full h-full object-contain"
+                />
             </div>
             <div class="flex flex-col gap-5 pt-2.5 flex-1 justify-start">
                 <span

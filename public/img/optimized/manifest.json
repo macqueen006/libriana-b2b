@@ -1,0 +1,388 @@
+{
+  "academic-pathway": {
+    "filename": "academic-pathway",
+    "original": {
+      "width": 1622,
+      "height": 1218,
+      "size": 16.37,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "bar-cardr": {
+    "filename": "bar-cardr",
+    "original": {
+      "width": 2620,
+      "height": 2132,
+      "size": 55.29,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "card-flowr": {
+    "filename": "card-flowr",
+    "original": {
+      "width": 2784,
+      "height": 1684,
+      "size": 194.03,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "data-usage": {
+    "filename": "data-usage",
+    "original": {
+      "width": 1740,
+      "height": 1160,
+      "size": 13.6,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "engagement": {
+    "filename": "engagement",
+    "original": {
+      "width": 1740,
+      "height": 1160,
+      "size": 59.85,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "hero-bg": {
+    "filename": "hero-bg",
+    "original": {
+      "width": 2714,
+      "height": 1266,
+      "size": 71.41,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "integration-cardr": {
+    "filename": "integration-cardr",
+    "original": {
+      "width": 2784,
+      "height": 1684,
+      "size": 192.55,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "librarian-computer": {
+    "filename": "librarian-computer",
+    "original": {
+      "width": 1740,
+      "height": 1160,
+      "size": 42.64,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "library-design": {
+    "filename": "library-design",
+    "original": {
+      "width": 1548,
+      "height": 1162,
+      "size": 100.13,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "library": {
+    "filename": "library",
+    "original": {
+      "width": 774,
+      "height": 1162,
+      "size": 49.82,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768
+    ]
+  },
+  "mentor": {
+    "filename": "mentor",
+    "original": {
+      "width": 1738,
+      "height": 1160,
+      "size": 44.45,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "profile-1": {
+    "filename": "profile-1",
+    "original": {
+      "width": 513,
+      "height": 640,
+      "size": 13.54,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400
+    ]
+  },
+  "profile-2": {
+    "filename": "profile-2",
+    "original": {
+      "width": 434,
+      "height": 640,
+      "size": 11.02,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400
+    ]
+  },
+  "profile-3": {
+    "filename": "profile-3",
+    "original": {
+      "width": 640,
+      "height": 480,
+      "size": 15.76,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640
+    ]
+  },
+  "profile-5": {
+    "filename": "profile-5",
+    "original": {
+      "width": 640,
+      "height": 417,
+      "size": 10.98,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640
+    ]
+  },
+  "progress-cardr": {
+    "filename": "progress-cardr",
+    "original": {
+      "width": 3200,
+      "height": 1932,
+      "size": 159.27,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "searches-cardr": {
+    "filename": "searches-cardr",
+    "original": {
+      "width": 2620,
+      "height": 2132,
+      "size": 54.53,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "security": {
+    "filename": "security",
+    "original": {
+      "width": 3392,
+      "height": 2760,
+      "size": 146.55,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "smart-integration": {
+    "filename": "smart-integration",
+    "original": {
+      "width": 1740,
+      "height": 1160,
+      "size": 40.94,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "solution": {
+    "filename": "solution",
+    "original": {
+      "width": 774,
+      "height": 581,
+      "size": 18.22,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768
+    ]
+  },
+  "trust-us": {
+    "filename": "trust-us",
+    "original": {
+      "width": 1742,
+      "height": 1162,
+      "size": 62.15,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536
+    ]
+  },
+  "uptime-cardr": {
+    "filename": "uptime-cardr",
+    "original": {
+      "width": 2620,
+      "height": 2132,
+      "size": 54.39,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768,
+      1024,
+      1280,
+      1536,
+      1920
+    ]
+  },
+  "young-woman-2": {
+    "filename": "young-woman-2",
+    "original": {
+      "width": 776,
+      "height": 1162,
+      "size": 38.63,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768
+    ]
+  },
+  "young-woman": {
+    "filename": "young-woman",
+    "original": {
+      "width": 774,
+      "height": 1162,
+      "size": 46.93,
+      "format": "webp"
+    },
+    "generatedSizes": [
+      400,
+      640,
+      768
+    ]
+  }
+}

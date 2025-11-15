@@ -28,13 +28,13 @@
 
             <!-- Contact Info -->
             <div class="flex-1 flex flex-col gap-[60px]">
-                <h4 class="max-w-[308px] text-2xl font-semibold text-primary">
+                <h2 class="max-w-[308px] text-2xl font-semibold text-primary">
                     Success is a team play, right? Let’s work together!
-                </h4>
+                </h2>
 
                 <div class="flex flex-col gap-[30px]">
                     <div class="flex flex-col gap-1">
-                        <h4 class="text-neutral-900/90 font-semibold">Address:</h4>
+                        <h3 class="text-neutral-900/90 font-semibold text-2xl">Address:</h3>
                         <p class="text-sm text-neutral-600 max-w-[380px]">
                             Innolibrary Global Limited s. r. o.<br>
                             Street: Nám. sv. Františka 18,<br>
@@ -43,12 +43,12 @@
                     </div>
 
                     <div class="flex flex-col gap-1">
-                        <h4 class="text-neutral-900/90 font-semibold">Email us:</h4>
+                        <h3 class="text-neutral-900/90 font-semibold text-2xl">Email us:</h3>
                         <p class="text-sm text-neutral-600">support@librana.ai.com</p>
                     </div>
 
                     <div class="flex flex-col gap-1">
-                        <h4 class="text-neutral-900/90 font-semibold">Call us:</h4>
+                        <h3 class="text-neutral-900/90 font-semibold text-2xl">Call us:</h3>
                         <p class="text-sm text-neutral-600">+234 903 2732 049</p>
                     </div>
                 </div>

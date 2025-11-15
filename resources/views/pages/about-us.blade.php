@@ -57,14 +57,13 @@
                 <div class="border border-gray-200 shadow-sm rounded-sm h-full flex flex-col relative space-y-5 col-span-1">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/librarian-computer.webp')}}"
-                             class="w-full h-full object-cover"
-                             alt="Librana AI Librarian - Digital librarian assistant"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/librarian-computer.webp"
+                            alt="Librana AI Librarian - Digital librarian assistant"
+                            width="400"
+                            height="256"
+                            class="w-full h-full object-cover"
+                        />
                     </div>
                     <!-- End image -->
                     <!-- Text-->
@@ -80,14 +79,13 @@
                 <div class="border border-gray-200 shadow-sm rounded-sm h-full flex flex-col relative space-y-5 col-span-1">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/mentor.webp')}}"
-                             class="w-full h-full object-cover"
-                             alt="Librana Mentor - Professional development for librarians"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/mentor.webp"
+                            alt="Librana Mentor - Professional development for librarians"
+                            width="400"
+                            height="256"
+                            class="w-full h-full object-cover"
+                        />
                     </div>
                     <!-- End image -->
                     <!-- Text-->
@@ -103,14 +101,13 @@
                 <div class="border border-gray-200 shadow-sm rounded-sm h-full flex flex-col relative space-y-5 col-span-1">
                     <!-- image -->
                     <div class="relative w-full h-64 shrink-0 overflow-hidden">
-                        <img src="{{asset('img/academic-pathway.webp')}}"
-                             class="w-full h-full object-cover"
-                             alt="Librana Courseware Advisor - Academic guidance tool"
-                             loading="lazy"
-                             decoding="async"
-                             width="400"
-                             height="256"
-                        >
+                        <x-responsive-image
+                            src="img/academic-pathway.webp"
+                            alt="Librana Courseware Advisor - Academic guidance tool"
+                            width="400"
+                            height="256"
+                            class="w-full h-full object-cover"
+                        />
                     </div>
                     <!-- End image -->
                     <!-- Text-->
@@ -198,13 +195,13 @@
                     </div>
                 </div>
                 <div class="flex-1 w-full relative min-h-[374px]">
-                    <img src="{{asset('img/library.webp')}}"
-                         class="absolute left-0 top-0 w-full h-full object-cover rounded-sm"
-                         alt="Excellence and Integrity in library services"
-                         loading="lazy"
-                         decoding="async"
-                         width="400"
-                         height="374">
+                    <x-responsive-image
+                        src="img/library.webp"
+                        alt="Excellence and Integrity in library services"
+                        width="400"
+                        height="374"
+                        class="absolute left-0 top-0 w-full h-full object-cover rounded-sm"
+                    />
                  </div>
                 <div class="space-y-5 flex-1">
                     <div class="space-y-5">
@@ -303,13 +300,13 @@
             <div class="flex-1 relative min-h-[400px] w-full flex justify-end items-center">
                 <div class="lg:w-3/4 lg:h-3/4 relative">
                     <div class="absolute inset-0 bg-primary/5 rounded-lg blur-3xl"></div>
-                    <img src="{{asset('img/solution.webp')}}"
-                         class="relative w-full h-full object-contain rounded-sm"
-                         alt="Choose your AI solution"
-                         loading="lazy"
-                         decoding="async"
-                         width="600"
-                         height="400">
+                    <x-responsive-image
+                        src="img/solution.webp"
+                        alt="Choose your AI solution"
+                        width="600"
+                        height="400"
+                        class="relative w-full h-full object-contain rounded-sm"
+                    />
                 </div>
             </div>
         </div>

@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "optimize-images": "node resources/js/optimize-images.js && php artisan cache:clear"
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.5.10",
@@ -21,5 +22,9 @@
         "@rollup/rollup-linux-x64-gnu": "4.9.5",
         "@tailwindcss/oxide-linux-x64-gnu": "^4.0.1",
         "lightningcss-linux-x64-gnu": "^1.29.1"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.1",
+        "sharp": "^0.34.5"
     }
 }

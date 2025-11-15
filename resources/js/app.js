@@ -5,15 +5,28 @@ const initHomeAnimations = async () => {
     const heroSubheading = document.querySelector(".hero-text .subheading");
 
     if (heroTitle && heroSubheading) {
-        const { gsap } = await import('gsap');
-        const { ScrollTrigger } = await import('gsap/ScrollTrigger');
+        const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+            import('gsap'),
+            import('gsap/ScrollTrigger')
+        ]);
 
         gsap.registerPlugin(ScrollTrigger);
 
-        const heroTimeline = gsap.timeline({ defaults: { ease: "power3.out" } });
+        // Explicitly set initial state
+        gsap.set([heroTitle, heroSubheading], {
+            opacity: 0,
+            y: 80,
+            force3D: true,
+            clearProps: "will-change" // Remove will-change after animation
+        });
+
+        const heroTimeline = gsap.timeline({
+            defaults: { ease: "power3.out" }
+        });
+
         heroTimeline
-            .from(heroTitle, { y: 80, opacity: 0, duration: 1.4 })
-            .from(heroSubheading, { y: 60, opacity: 0, duration: 1.2 }, "-=0.8");
+            .to(heroTitle, { y: 0, opacity: 1, duration: 1.4 })
+            .to(heroSubheading, { y: 0, opacity: 1, duration: 1.2 }, "-=0.8");
     }
 };
 

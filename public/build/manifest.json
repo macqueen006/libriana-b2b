@@ -1,18 +1,15 @@
 {
-  "node_modules/gsap/ScrollTrigger.js": {
-    "file": "assets/ScrollTrigger-B1GGtPrJ.js",
-    "name": "ScrollTrigger",
-    "src": "node_modules/gsap/ScrollTrigger.js",
+  "_gsap-CN2_GblF.js": {
+    "file": "assets/gsap-CN2_GblF.js",
+    "name": "gsap",
     "isDynamicEntry": true
   },
-  "node_modules/gsap/index.js": {
-    "file": "assets/index-acJusjrU.js",
-    "name": "index",
-    "src": "node_modules/gsap/index.js",
-    "isDynamicEntry": true
+  "_preline-ZKV-aBPg.js": {
+    "file": "assets/preline-ZKV-aBPg.js",
+    "name": "preline"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CVT_Ds8R.css",
+    "file": "assets/app-DnsnW4ig.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "names": [
@@ -20,13 +17,16 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CNYAoqIN.js",
+    "file": "assets/app-Cgf4OcxI.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
+    "imports": [
+      "_preline-ZKV-aBPg.js"
+    ],
     "dynamicImports": [
-      "node_modules/gsap/index.js",
-      "node_modules/gsap/ScrollTrigger.js"
+      "_gsap-CN2_GblF.js",
+      "_gsap-CN2_GblF.js"
     ]
   }
 }

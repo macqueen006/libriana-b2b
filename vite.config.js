@@ -15,4 +15,15 @@ export default defineConfig({
     server: {
         cors: true,
     },
+    build: {
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    'gsap': ['gsap', 'gsap/ScrollTrigger'],
+                    'preline': ['preline']
+                }
+            }
+        },
+        chunkSizeWarningLimit: 600
+    }
 });

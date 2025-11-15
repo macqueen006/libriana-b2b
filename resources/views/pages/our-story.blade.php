@@ -47,13 +47,13 @@
                 </div>
 
                 <div class="flex-1 w-full relative min-h-[374px] rounded-sm overflow-hidden shadow-md">
-                    <img src="{{ asset('img/library-design.webp') }}"
-                         class="absolute inset-0 w-full h-full object-cover"
-                         alt="Library foundation and excellence"
-                         loading="lazy"
-                         decoding="async"
-                         width="600"
-                         height="374">
+                    <x-responsive-image
+                        src="img/library-design.webp"
+                        alt="Library foundation and excellence"
+                        width="600"
+                        height="374"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
                 </div>
             </div>
 
@@ -61,21 +61,21 @@
             <div class="flex flex-col md:flex-row gap-5 md:gap-10">
                 <div class="border border-gray-200 rounded-xl py-8 px-6 flex-1 shadow-sm bg-background">
                     <div class="mx-auto text-center space-y-3">
-                        <h1 class="text-4xl font-bold text-primary">15+</h1>
+                        <h2 class="text-4xl font-bold text-primary">15+</h2>
                         <p class="capitalize text-neutral-600 font-medium">Years of experience</p>
                     </div>
                 </div>
 
                 <div class="border border-neutral/20 rounded-xl py-8 px-6 flex-1 shadow-sm bg-background">
                     <div class="mx-auto text-center space-y-3">
-                        <h1 class="text-4xl font-bold text-primary">100+</h1>
+                        <h2 class="text-4xl font-bold text-primary">100+</h2>
                         <p class="capitalize text-neutral-600 font-medium">Global partners</p>
                     </div>
                 </div>
 
                 <div class="border border-neutral/20 rounded-xl py-8 px-6 flex-1 shadow-sm bg-background">
                     <div class="mx-auto text-center space-y-3">
-                        <h1 class="text-4xl font-bold text-primary">95%</h1>
+                        <h2 class="text-4xl font-bold text-primary">95%</h2>
                         <p class="capitalize text-neutral-600 font-medium">Client satisfaction rate</p>
                     </div>
                 </div>
